@@ -10,10 +10,11 @@ body {
 
 header {
     margin-right: 30px;
+    height: auto;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -38,7 +39,7 @@ header a {
     list-style-type: none;
     box-shadow: 0 5px 5px #031f29;
     margin: 0;
-    width:100%;
+    width:100vw;
     padding: 1rem 1rem;
     display:flex;
     justify-content: space-evenly;
@@ -54,7 +55,7 @@ header a {
 }
 nav {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     left: 0;
     padding: 0;
     display: none;
@@ -81,19 +82,32 @@ nav {
 /* Main */
 main {
     padding-top: 60px;
+
+}
+
+#hero {
+    margin: 0;
+    padding-top: 300px;
 }
 
 #slogan {
     font-size: 150%;
     color:orange;
-    width: 66%;
-    display: flex;
-    position: relative;
-    bottom:0px;
+    margin-left: 45px;
+    padding: 0 1.5rem;
+    background-color: #f9d8d2;
+    border:#f9d8d2 1px solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: right;
 }
 /*Footer*/
 footer {
     position:fixed;
     bottom: 0px;
+    height: 120px;
+    width: 100vw;
+    background-color: #f9d8d2;
+    color: #031f29;
 }
 
