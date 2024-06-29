@@ -6,6 +6,7 @@ body {
     width: 100%;
     margin: 0;
     background-color: #074B64;
+    overflow-x: hidden;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -53,7 +54,7 @@ header a {
 }
 nav {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     left: 0;
     padding: 0;
     display: none;
@@ -153,19 +154,21 @@ main {
     text-align: left;
 }
 
-.values-item {
+.value-cards {
+    padding-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.values-item > div {
+.value-cards > div {
     border:#f9d8d2 2px solid;
     border-radius: 15px;
     margin: 10px;
     padding: 20px;
     text-align: center;
     flex-basis:150px;
+    max-width: 150px;
     flex-grow:1;
     box-shadow: #031f29 1px 5px 5px;
 }
@@ -174,10 +177,19 @@ main {
     overflow-x auto;
     white-space:nowrap;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #074B64;
-    padding: 20x 0;
+    padding: 20px 0;
+}
+
+.fa-solid {
+    position:relative;
+    display: flex;
+    align-items: right;
+    right: 0px;
+    bottom: 0px;
+    color: orange;
 }
 
 .gallery {
@@ -192,14 +204,14 @@ main {
 }
 
 .gallery img:hover {
-    transform: scale (1.1);
+    transform: scale(1.1);
 }
 
 /*Footer*/
 footer {
     bottom: 0px;
     height: 120px;
-    width: 100vw;
+    width: 100%;
     background-color: #f9d8d2;
     color: #031f29;
     padding-top: 60px;
