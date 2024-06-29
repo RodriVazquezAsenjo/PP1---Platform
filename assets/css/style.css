@@ -85,7 +85,7 @@ main {
 
 }
 
-#hero {
+.main-landing-entries {
     margin: 0;
     padding-top: 300px;
 }
@@ -101,9 +101,51 @@ main {
     border-bottom-left-radius: 30px;
     text-align: right;
 }
+
+.propaganda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#course-content {
+    height: 80px;
+    margin: 30px;
+    color: #f9d8d2;
+    padding: 0 25px;
+    font-size: 135%;
+    display: flex;
+    align-items: center;
+    border: #f9d8d2 solid 2px;
+    border-radius:40px;
+    border-color: #f9d8d2;
+    background-color: transparent;
+}
+
+.download-button {
+    text-decoration: none;
+    color: inherit;
+}
+
+#course-content:hover {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f9d8d2;
+    color:#074B64;
+}
+
+
+#statement {
+    font-size: 150%;
+    color:orange;
+    margin-right: 45px;
+    padding: 0 1.5rem;
+    background-color: #f9d8d2;
+    border:#f9d8d2 1px solid;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: left;
+}
 /*Footer*/
 footer {
-    position:fixed;
     bottom: 0px;
     height: 120px;
     width: 100vw;
