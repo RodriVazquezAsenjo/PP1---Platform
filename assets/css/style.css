@@ -35,19 +35,16 @@ header a {
 
 #menu {
     background-color: #074B64;
-    font-size: 125%;
     list-style-type: none;
     box-shadow: 0 5px 5px #031f29;
     margin: 0;
-    width:100vw;
     padding: 1rem 1rem;
     display:flex;
     justify-content: space-evenly;
 }
 
 #menu > li {
-    margin-bottom: 1em;
-    margin-right: 3.5rem;
+    margin: 1rem;
 }
 
 .active {
@@ -104,24 +101,25 @@ main {
 
 .propaganda {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#course-content {
-    height: 80px;
-    margin: 30px;
-    color: #f9d8d2;
+
+.propaganda > button {
+    margin-top: 15px;
+    font-size: 130%;
+    height: 60px;
+    border-radius: 30px;
     padding: 0 25px;
-    font-size: 135%;
-    display: flex;
-    align-items: center;
+}
+#course-content {
+    color: #f9d8d2;
     border: #f9d8d2 solid 2px;
-    border-radius:40px;
-    border-color: #f9d8d2;
     background-color: transparent;
 }
 
-.download-button {
+.button {
     text-decoration: none;
     color: inherit;
 }
@@ -132,7 +130,15 @@ main {
     color:#074B64;
 }
 
+#register-interest {
+    color: #074B64;
+    background-color: #f9d8d2;
+    border: #074B64 solid 2px;
+}
 
+.values {
+    padding-top: 30px;
+}
 #statement {
     font-size: 150%;
     color:orange;
@@ -151,5 +157,6 @@ footer {
     width: 100vw;
     background-color: #f9d8d2;
     color: #031f29;
+    padding-top: 60px;
 }
 
