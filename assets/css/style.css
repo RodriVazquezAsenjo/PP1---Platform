@@ -163,38 +163,38 @@ main {
 
 .card-container {
     position: relative;
-    padding-top: 30px;
     margin-bottom: 30px;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 30px;
 }
 
 .card-container .card {
     position: relative;
-    max-width: 300px;
-    height: 100px;
+    max-width: 250px;
+    height: 125px;
     background-color: #0a6080;
-    margin: 15px 10px;
-    padding: 20px 15px;
-
+    margin: 15px 5px;
+    padding: 20px 10px;
+    text-align: center;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
     border-radius: 15px;
 }
 
 .card-container .card:hover {
-    height: 320px;
+    height: 200px;
 }
 
 .container .card .card-front {
     position: relative;
     width: 260px;
-    height:260px;
+    height:200px;
 
     top: -40%;
     left: 8px;
@@ -205,32 +205,38 @@ main {
 .card-container .card .card-back {
     position: relative;
     padding: 10px 15px;
-    color: #f9d8d2;
+    color: orange;
     text-align: center;
 
     visibility: hidden;
     opacity: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .card-front, .card-back { 
-    width: 150px;
+    width: 100%;
     text-align: center;
 }
-
-.card-container .card:hover .card-back {
-    margin-top: 30px;
-    visibility: visible;
+.card-container .card:hover .card-front >i {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
     opacity: 1;
     transition-delay: 0.2s;
 }
 
+.card-container .card:hover .card-back {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+    top 0;
+}
+
 .fa-solid {
-    position:relative;
-    display: flex;
-    align-items: right;
-    right: 0px;
-    bottom: 0px;
-    color: orange;
+    position:absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f9d8d2;
 }
 
 /*Footer*/
