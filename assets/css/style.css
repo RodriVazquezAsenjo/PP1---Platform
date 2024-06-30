@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+/* General reset and font-family setup*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: 'Comfortaa', sans-serif;
 }
 
+/* Body Styling */
 body {
     color: #f9d8d2;
     min-height: 800px;
@@ -16,6 +18,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Header Styling */
 header {
     margin-right: 30px;
     background-color: #074B64;
@@ -28,6 +31,8 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
+/* Logo Styling */
 #logo {
     font-size: 200%;
 }
@@ -244,10 +249,48 @@ main {
     color: #f9d8d2;
 }
 
+/* Partners Section */
+
+.gallery {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.gallery .gallery-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(200px * 10);
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.gallery .gallery-item {
+    min-width: 200px;
+    padding: 0 30px;
+}
+
+.gallery .gallery-item img {
+    width:100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform:translateX(calc(-200px*5));
+    }
+}
+
+
 /*Footer*/
 footer {
+    position: relative;
     bottom: 0px;
-    height: 120px;
+    height: 300px;
     width: 100%;
     background-color: #f9d8d2;
     color: #031f29;
