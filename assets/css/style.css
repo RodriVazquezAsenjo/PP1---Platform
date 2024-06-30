@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
+}
+
+body {
     color: #f9d8d2;
+    min-height: 800px;
     width: 100%;
     margin: 0;
     background-color: #074B64;
@@ -13,7 +20,7 @@ header {
     margin-right: 30px;
     background-color: #074B64;
     height: auto;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -93,7 +100,7 @@ main {
     font-size: 150%;
     color:orange;
     margin-left: 45px;
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem;
     background-color: #f9d8d2;
     border:#f9d8d2 1px solid;
     border-top-left-radius: 30px;
@@ -146,7 +153,7 @@ main {
     font-size: 150%;
     color:orange;
     margin-right: 45px;
-    padding: 0 1.5rem;
+    padding: 1.5rem;
     background-color: #f9d8d2;
     border:#f9d8d2 1px solid;
     border-top-right-radius: 30px;
@@ -155,62 +162,66 @@ main {
 }
 
 .card-container {
-    perspective: 1000px;
+    position: relative;
     padding-top: 30px;
     margin-bottom: 30px;
     display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
 }
 
-.flip-checkbox {
-    display:none;
-}
+.card-container .card {
+    position: relative;
+    max-width: 300px;
+    height: 100px;
+    background-color: #0a6080;
+    margin: 15px 10px;
+    padding: 20px 15px;
 
-.card {
-    width: 300px;
-    height: 200px;
-    position:relative;
-    transform-style: preserve-3d;
-    transition: transform: 0.6s;
-}
-
-.flip-checkbox:checked + .card {
-    transform: rotateY(180deg);
-}
-
-.card-front, .card-back {
-    margin: 10px;
-    padding: 10px;
-    width: 150px;
-    position: absolute;
-    backface-visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card-container .card:hover {
+    height: 320px;
+}
+
+.container .card .card-front {
+    position: relative;
+    width: 260px;
+    height:260px;
+
+    top: -40%;
+    left: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2)
+    z-index: 1;
+}
+
+.card-container .card .card-back {
+    position: relative;
+    padding: 10px 15px;
+    color: #f9d8d2;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.card-front, .card-back { 
+    width: 150px;
     text-align: center;
 }
 
-.card-front {
-    background-color: #0a6080;
-    color: #f9d8d2;
-}
-
-.card-back {
-    background-color: #0a6080;
-    color:#f9d8d2;
-    transform: rotateY(180deg);
-}
-.gallery-container {
-    width: 100%;
-    overflow-x auto;
-    white-space:nowrap;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #074B64;
-    padding: 20px 0;
+.card-container .card:hover .card-back {
+    margin-top: 30px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
 }
 
 .fa-solid {
@@ -220,21 +231,6 @@ main {
     right: 0px;
     bottom: 0px;
     color: orange;
-}
-
-.gallery {
-    display:inline-flex;
-}
-
-.gallery img {
-    height:200px;
-    margin: 0 10px;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.gallery img:hover {
-    transform: scale(1.1);
 }
 
 /*Footer*/
