@@ -104,7 +104,7 @@ main {
 
 .main-landing-entries {
     margin: 0;
-    padding-top: 300px;
+    padding-top: 400px;
 }
 
 #slogan {
@@ -288,12 +288,47 @@ main {
 
 /*Footer*/
 footer {
-    position: relative;
-    bottom: 0px;
-    height: 300px;
     width: 100%;
     background-color: #f9d8d2;
     color: #031f29;
     padding-top: 60px;
 }
 
+footer .socials .shortcuts .disclaimer {
+    text-align:center;
+    justify-content: center;
+}
+
+.footer-main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-main > div {
+    padding: 10px;
+}
+
+.address {
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.socials{ 
+    text-align: center;
+}
+
+.socials i {
+    padding: 10px;
+}
+.shortcuts {
+
+}
+
+
+
+.disclaimer {
+    padding: 10px;
+    font-size: 75%;
+    text-align: center;
+}
