@@ -107,7 +107,7 @@ main {
     padding-top: 400px;
 }
 
-#slogan {
+.slogan {
     font-size: 150%;
     color:orange;
     margin-left: 45px;
@@ -324,4 +324,62 @@ footer .socials .shortcuts .disclaimer {
     padding: 10px;
     font-size: 75%;
     text-align: center;
+}
+
+/*Mentors Site*/
+
+#meet-our-mentors {
+    padding-top: 200px;
+}
+
+
+.mentor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.mentor-card-main {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    border:orange 5px solid;
+    z-index:999;
+}
+
+.mentor-card-main h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: orange;
+    padding: 5px 10px;
+}
+
+.mentor-card-main img {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+.mentor-card-slideout {
+    position: relative;
+    background-color: #031f29;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top:100%;
+    padding: 10px;
+    width: inherit;
+    max-width: 400px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.mentor-card-main:hover + .mentor-card-slideout {
+    visibility:visible;
+    opacity: 1;
+    transform: translateY(0);
 }
