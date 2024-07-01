@@ -303,15 +303,13 @@ footer .socials .shortcuts .disclaimer {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .footer-main > div {
-    padding: 10px;
-}
-
-.address {
-    padding: 10px;
-    line-height: 1.4;
+    padding: 2rem;
+    width: 250px;
+    height: 125px;      
 }
 
 .socials{ 
@@ -321,11 +319,6 @@ footer .socials .shortcuts .disclaimer {
 .socials i {
     padding: 10px;
 }
-.shortcuts {
-
-}
-
-
 
 .disclaimer {
     padding: 10px;
