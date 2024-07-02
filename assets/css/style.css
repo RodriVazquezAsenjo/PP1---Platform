@@ -180,17 +180,22 @@ main {
 
 .propaganda {
 
+    /*position*/
+    margin: 0 10%;
+
+    /*flexbox*/
+    display: flex;
 }
 
 .propaganda > button {
 
     /*dimensions*/
-    height: 60px;
+    width: 100%;
+    height: auto;
 
     /*position*/
-    padding: 0 25px;
-
-    /*flex-box*/
+    margin: 0 1rem;
+    padding: 10px 25px;
 
     /*box*/
     border-radius: 30px;
