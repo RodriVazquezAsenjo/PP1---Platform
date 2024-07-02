@@ -103,21 +103,48 @@ main {
     transition: margin-top 0.3s ease-in-out;
 }
 
+/* LANDING VIDEO */
+.hero-videos {
+    /*dimensions*/
+    width:100%;
+    max-height: 400px;
+    overflow: hidden;
+
+    /*position*/
+    display: flex;
+    align-items: center;
+}
+
+#hero-video {
+    /*background*/
+    filter: brightness(70%) blur(0%);
+}
+
+
 .main-landing-entries {
     margin: 0;
-    padding-top: 400px;
 }
 
 .slogan {
+
+    /*dimensions*/
+    width:70%;
+
+    /*position*/
+    position:absolute;
+    padding: 1.5rem 7.5%;
+    right: 0;
+
+    /*text*/
     font-size: 150%;
     color:orange;
-    margin-left: 45px;
-    padding: 1.5rem 1.5rem;
+    text-align: right;
+
+    /*box*/
     background-color: #f9d8d2;
     border:#f9d8d2 1px solid;
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    text-align: right;
+    border-bottom-left-radius: 30px;  
 }
 
 .propaganda {
@@ -417,83 +444,106 @@ footer .socials .shortcuts .disclaimer {
 
 /*Signup Popup*/
 
-  .box {
-    width: 40%;
-    margin: 0 auto;
-    background: rgba(255,255,255,0.2);
-    padding: 35px;
-    border: 2px solid #fff;
-    border-radius: 20px/50px;
-    background-clip: padding-box;
-    text-align: center;
-  }
-  
-  .button {
-    font-size: 1em;
-    padding: 10px;
-    border-radius: 20px/50px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-  }
   .button:hover {
     text-decoration: underline;
   }
   
   .overlay {
+
+    /*position*/
     position: fixed;
-    top: 0;
+    top: 10%;
     bottom: 0;
     left: 0;
     right: 0;
+
+    /*box*/
     background: rgba(0, 0, 0, 0.7);
+
+    /*animation*/
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
   }
+
   .overlay:target {
+    
+    /*animation*/
     visibility: visible;
     opacity: 1;
   }
   
   .popup {
+
+    /*dimensions*/
     margin: 70px auto;
     padding: 20px;
+    width: 60%;
+
+    /*box*/
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    box-shadow: rgba(0,0,0,0.5)  0 5px 5px;
+    
+    /*position*/
     position: relative;
-    transition: all 5s ease-in-out;
+
+    /*flexbox*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /*text*/
+    font-size: 150%;
+
+    /*animation*/
+    transition: all 1s ease-in-out;
   }
   
   .popup h2 {
     margin-top: 0;
-    color: #333;
-    font-family: Tahoma, Arial, sans-serif;
+    color: orange;
+    padding: 30px;
+    text-decoration: underline;
   }
+
+
   .popup .close {
+
+    /*position*/
     position: absolute;
     top: 20px;
     right: 30px;
+
+    /*animations*/
     transition: all 200ms;
+    
+    /*text*/
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
   }
   .popup .close:hover {
-    color: #06D85F;
+    color: orange;
   }
   .popup .content {
     max-height: 30%;
     overflow: auto;
+    color:orange;
   }
-  
-  @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
-    .popup{
-      width: 70%;
-    }
+
+  .popup button {
+    
+    /*position*/
+    position:relative;
+    align-self:center;
+
+    /*flexbox*/
+    display:flex;
+    justify-content: center;
+
+    /*dimensions*/
+    width: 60%;
+    
   }
