@@ -110,9 +110,6 @@ main {
     max-height: 400px;
     overflow: hidden;
 
-    /*position*/
-    margin-bottom: 10px;
-
     /*flex-box*/
     display: flex;
     align-items: center;
@@ -128,13 +125,14 @@ main {
     width:100%;
     height:auto;
 
+    /*position*/
+    padding: 20px 0 10px;
+
     /*flex-box*/
     display: flex;
     justify-content: flex-end;
-    align
 
-    /*position*/
-    padding: 10px 0;
+    
 }
 
 .slogan {
@@ -142,15 +140,14 @@ main {
     /*dimensions*/
     width:70%;
     height: auto;
-    align-self: center;
 
     /*position*/
-    padding: 15px 7.5%;
-    right: 0;
+    padding: 15px 5%;
 
     /*flex-box*/
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
 
     /*text*/
     font-size: 150%;
@@ -170,30 +167,40 @@ main {
     width: 100%;
     height:auto;
 
+    /*position*/
+    padding: 10px 0 20px;
+
     /*flex-box*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    /*position*/
-    padding: 10px 0;
-
 }
+
 .propaganda {
 
-    /*position*/
 }
 
 .propaganda > button {
-    margin-top: 15px;
-    font-size: 130%;
+
+    /*dimensions*/
     height: 60px;
-    border-radius: 30px;
+
+    /*position*/
     padding: 0 25px;
-    box-shadow: #031f29 0 5px 5px;
+
+    /*flex-box*/
+
+    /*box*/
+    border-radius: 30px;
+    box-shadow: #031f29 0 2px 2px;
+
+    /*text*/
+    font-size: 130%;
+
 }
+
 #course-content {
     color: #f9d8d2;
     border: #f9d8d2 solid 2px;
@@ -217,9 +224,6 @@ main {
     border: #074B64 solid 2px;
 }
 
-.values {
-    padding-top: 30px;
-}
 #statement {
     font-size: 150%;
     color:orange;
