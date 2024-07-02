@@ -27,7 +27,7 @@
                         <a href="mentor.html">Mentors</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us!</a>
+                        <a class="button" href="#popup1">Sign-up</a>
                     </li>
                 </ul>
             </nav>  
@@ -44,12 +44,12 @@
                 <div class="propaganda">
                     <form method="post" class="propaganda">
                         <button id="course-content">
-                            <a href="" download="" class="button">
-                                Download course-content
+                            <a href="" download="" class="button1">
+                                Download course ontent
                             </a>
                         </button>
                         <button id="register-interest">
-                            <a href="" class="button">Register</a>
+                            <a href="" class="button1">Register</a>
                         </button>
                     </form>
                 </div>
@@ -169,12 +169,18 @@
             </section>
         </main>
 
-        <aside>
-            
-            <div class="popup-signup">
+        <div>
+            <h1>Popup/Modal Windows without JavaScript</h1>
+            <div class="box">
+	            <a class="button" href="#popup1">Let me Pop up</a>
+            </div>
 
-                <h3 id="signup-title">Sign Up</h3>
-                <form id="signup-form">
+            <div id="popup1" class="overlay">
+	            <div class="popup">
+		            <h2>Sign-Up</h2>
+		            <a class="close" href="#">&times;</a>
+		        <div class="content">
+			    <form id="signup-form">
                     <div class="form-entry">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name">
@@ -186,17 +192,21 @@
                     <div class="form-entry">
                         <label for="email">Email:</label>
                         <input type="email" name="email" id="email">
-                    </div>                    
+                    </div>
                     <div class="form-entry">
                         <label for="password">Password:</label>
                         <input type="password" name="password" id="password">
                     </div>
                     <button type="submit">
-                        <p>Hello!</p>
+                        <p>Submit</p>
                     </button>
+                    </div>
                 </form>
-            </div>
-        </aside>
+		    </div>
+	    </div>
+</div>
+            
+        </div>
 
         <footer>
 
