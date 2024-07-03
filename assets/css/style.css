@@ -691,7 +691,7 @@ footer {
     border-radius: 5px;
 
     /*image*/
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(0.8);
 }
 
 .mentor-card-slideout {
@@ -729,121 +729,155 @@ footer {
 }
 .mentor-card:hover .mentor-card-main img {
 
-    /
+    /*animation*/
     filter: grayscale(0);
     scale: 1.1;
     transition: 0.2s ease-in-out;
 }
 
-/*Contact*/
+/*CONTACT PAGE*/
 
-.contact {
-    position: relative;
-    top: 200px;
+.empty-space {
+
+    /*dimensions*/
+    height: 130px;
 }
 
-/*Signup Popup*/
-
-  .button:hover {
-    text-decoration: underline;
-  }
-  
-  .overlay {
+.form-container {
 
     /*position*/
-    position: fixed;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    /*box*/
-    background: rgba(0, 0, 0, 0.7);
-
-    /*animation*/
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  .overlay:target {
-    
-    /*animation*/
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .popup {
+    margin: 20px auto;
+    padding: 10px;
 
     /*dimensions*/
-    margin: 70px auto;
-    padding: 20px;
-    width: 60%;
+    width: 80%;
+    max-width: 600px;
 
-    /*box*/
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: rgba(0,0,0,0.5)  0 5px 5px;
-    
-    /*position*/
-    position: relative;
-
-    /*flexbox*/
+    /*flex-box*/
     display: flex;
-    align-items: center;
     flex-direction: column;
-
-    /*text*/
-    font-size: 150%;
-
-    /*animation*/
-    transition: all 1s ease-in-out;
-  }
-  
-  .popup h2 {
-    margin-top: 0;
-    color: orange;
-    padding: 30px;
-    text-decoration: underline;
-  }
-
-
-  .popup .close {
-
-    /*position*/
-    position: absolute;
-    top: 20px;
-    right: 30px;
-
-    /*animations*/
-    transition: all 200ms;
-    
-    /*text*/
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup .close:hover {
-    color: orange;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-    color:orange;
-  }
-
-  .popup button {
-    
-    /*position*/
-    position:relative;
-    align-self:center;
-
-    /*flexbox*/
-    display:flex;
     justify-content: center;
 
+    /*box*/
+    background-color: #0a6080;
+    border: orange 3px solid;
+    border-radius: 15px;
+    box-shadow: #031f29 0 2px 2px;
+
+    /*text*/
+    line-height: 1.4;
+
+}
+
+.form-container h3 {
+
+    /*position*/
+    padding-left: 15px;
+    padding-bottom: 25px;
+
+    /*text*/
+    color: orange;
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.form-entry {
+
+    /*position*/
+    padding: 0 5px 10px;
+}
+
+.signup-form label {
+    
+    /*position*/
+    padding: 1rem;
+}
+.signup-form input{
+    
+
+    /*dimensions*/
+    height: 30px;
+    padding: 5px 10px;
+
+    /*box*/
+    background-color: #074B64;
+    border: #074B64 1px solid;
+    border-radius: 15px;
+
+    /*text*/
+    color: #f9d8d2;
+}
+
+.signup-form input:hover {
+
+    /*animation*/
+    border: #f9d8d2 1px solid;
+    transition: 0.3s;
+}
+
+.form-entry:hover label {
+
+    /*animation*/
+    color:orange;
+    transition: 0.3s;
+}
+.signup-form input:focus {
+
+    /*animation*/
+    background-color: #f9d8d2;
+    outline: orange;
+    color:#031f29;
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+.form-entry:focus-within label{
+
+    /*animation*/
+    font-size: 130%;
+    color:orange;
+    transition: 0.3s;
+}
+
+.button-container {
+
+    /*position*/
+    margin: auto;
+    padding: 2.5% 0;
+
     /*dimensions*/
     width: 60%;
-    
-  }
+    max-width: 200px;
+}
+.button-container button {
+
+    /*position*/
+    margin: auto;
+
+    /*dimensions*/
+    height: 40px;
+
+    /*box*/
+    border:#031f29 2px solid;
+    border-radius: 20px;
+    background-color: #f9d8d2;
+
+}    
+.button-container button:hover {
+
+    /*animation*/
+    scale: 1.1;
+    color: orange;
+    transition: 0.3s;
+    border: orange 2px solid;
+    font-weight: bold;
+}
+
+.button-container button:active {
+
+    /*animation*/
+    scale: 1.1;
+    background-color: orange;
+    transition: 0.3s;
+    color:#031f29;
+}
