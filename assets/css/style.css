@@ -29,7 +29,7 @@ body {
     background-color: ;
     
     /*text*/
-    color: var(--clr-main);
+    color: var(--clr-supplementary);
 
 }
 
@@ -413,7 +413,6 @@ justify-content: flex-start;
 
     /*text*/
     text-align: center;
-    color: var(--clr-supplementary);
 
     /*animation*/
     transition: 0.2s ease-in-out;
