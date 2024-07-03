@@ -617,79 +617,122 @@ footer {
 /*Mentors Site*/
 
 #meet-our-mentors {
+
+    /*position*/
     padding-top: 200px;
 }
 
 
 .mentor-container {
+
+    /*position*/
     position: relative;
+    padding: 30px;
+    gap: 20px;
+
+    /*flex-box*/
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px;
-    gap: 20px;
 }
 
 .mentor-card {
+
+    /*position*/
     position: relative;
     max-width: 400px;
+
+    /*dimensions*/
     height:auto;
-    text-align: center;
+
+    /*flex-box*/
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+
+    /*text*/
+    text-align: center;
 }
 
 .mentor-card-main {
+
+    /*position*/
     position: relative;
-    width: 100%;
-    border-radius: 10px;
     z-index:2;
+
+    /*dimensions*/
+    width: 100%;
+    
+    /*box*/
+    border-radius: 10px;
+
 }
 
 .mentor-card-main h3 {
+
+    /*position*/
     position: absolute;
     bottom: 10px;
     left: 10px;
+    padding: 5px 10px;
+    z-index: 3;
+
+    /*text*/    
     font-size: 150%;
     text-transform: uppercase;
     color: orange;
-    padding: 5px 10px;
-    z-index: 3;
 }
 
 .mentor-card-main img {
-    width: 100%;
-    height:auto;
+
+    /*position*/
     display: block;
-    filter: grayscale(1);
+
+    /*box*/
     border:orange 5px solid;
     border-radius: 5px;
+
+    /*image*/
+    filter: grayscale(1);
 }
 
 .mentor-card-slideout {
+
+    /*position*/
     position: relative;
+    top:100%;
+    padding: 35px 10px 10px;
+    
+    /*dimensions*/
+    max-width: 400px;
+
+    /*box*/
     background-color: #031f29;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+
+    /*text*/
     text-align: left;
-    top:100%;
-    padding: 35px 10px 10px;
-    width: 100%;
-    max-width: 400px;
+    
+    /*animation*/
     visibility: hidden;
     opacity: 0;
     transform: translateY(-20px);
     transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+
 }
 
 .mentor-card-main:hover + .mentor-card-slideout {
+
+    /*animation*/
     visibility:visible;
     opacity: 1;
     transform: translateY(0);
 }
 .mentor-card:hover .mentor-card-main img {
+
+    /
     filter: grayscale(0);
     scale: 1.1;
     transition: 0.2s ease-in-out;
