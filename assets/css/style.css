@@ -618,6 +618,20 @@ footer {
     text-align: center;
 }
 
+.address a {
+
+    /*text*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.address a:hover {
+
+    /*animation*/
+    font-size:110%;
+    color:var(--clr-secondary);
+    transition: 0.3s;
+}
 .socials {
 
     /*dimensions*/
