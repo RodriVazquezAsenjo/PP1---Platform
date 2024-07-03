@@ -292,7 +292,7 @@ main {
 
     /*text*/
     font-size: 130%;
-
+    color: var(--clr-highlights);
 }
 
 #course-content {
@@ -407,12 +407,13 @@ justify-content: flex-start;
     flex-grow: 1;
 
     /*box*/
-    background-color: var(-clr-secondary);
+    background-color: var(--clr-secondary);
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     border-radius: 15px;
 
     /*text*/
     text-align: center;
+    color: var(--clr-supplementary);
 
     /*animation*/
     transition: 0.2s ease-in-out;
