@@ -997,19 +997,33 @@ nav {
     }
 
 #menu {
+    
+    /*flex-box*/
     display: flex;
 }
 
 #menu>li {
+
+    /*position*/
     padding-left: 1rem;
 }
 
 .nav-toggle-label {
+
+    /*display*/
     display: none;
 }
 
 #logo {
+
+    /*position*/
+    margin: 0 0.5rem;
+
+    /*text*/
     font-size: 280%;
     line-height: 75px;
-    margin: 0 0.5rem;
+}
+
+#logo:hover {
+    font-size: 320%;
 }
