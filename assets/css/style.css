@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
 }
@@ -13,7 +12,7 @@
 /* Body Styling */
 body {
     color: #f9d8d2;
-    min-height: 800px;
+    height: 800px;
     background-color: #074B64;
     overflow-x: hidden;
 }
@@ -246,7 +245,10 @@ nav {
 .propaganda {
 
     /*position*/
-    margin: 0 10%;
+    margin: 0 auto;
+    width: 60%;
+    min-width: 400px;
+    gap: 30px;
 
     /*flexbox*/
     display: flex;
@@ -256,10 +258,12 @@ nav {
 
     /*dimensions*/
     width: 100%;
+    max-width: 400px;
     height: auto;
 
+
     /*position*/
-    margin: 0 1rem;
+    margin: auto;
     padding: 10px 25px;
 
     /*box*/
@@ -538,7 +542,9 @@ footer {
 
     /*position*/
     position: relative;
+    bottom: 0;
     padding: 10px;
+
 
     /*flex-box*/
     display: flex;
@@ -868,7 +874,7 @@ footer {
     /*animation*/
     scale: 1.1;
     color: orange;
-    transition: 0.3s;
+    transition: 0.2s;
     border: orange 2px solid;
     font-weight: bold;
 }
