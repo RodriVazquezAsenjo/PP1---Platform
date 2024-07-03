@@ -287,22 +287,38 @@ main {
     padding: 10px 25px;
 
     /*box*/
+    border: var(--clr-supplementary) solid 2px;
     border-radius: 30px;
     box-shadow: var(--clr-shadows) 0 2px 2px;
+    background-color: #0a6080;
 
     /*text*/
     font-size: 130%;
-    color: var(--clr-highlights);
+    color: var(--clr-supplementary);
 }
-
-#course-content {
+.propaganda > button:hover {
 
     /*text*/
-    color: var(--clr-supplementary);
+    color:var(--clr-highlights);
+    /*box*/
+    background-color: var(--clr-supplementary);
+    border: var(--clr-highlights) solid 2px;
+
+    /*animation*/
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.propaganda > button:active {
 
     /*box*/
-    border: var(--clr-supplementary) solid 2px;
-    background-color: transparent;
+    background-color: var(--clr-highlights);
+
+    /*text*/
+    color: var(--clr-shadows);
+
+    /*animation*/
+    transition: 0.3s;
 }
 
 .propaganda-button {
@@ -312,25 +328,6 @@ main {
     color: inherit;
 }
 
-#course-content:hover {
-    /*text*/
-    color:var(--clr-main);
-    /*box*/
-    background-color: var(--clr-supplementary);
-
-    /*animation*/
-    transition: background-color 0.3s, color 0.3s;
-}
-
-#register-interest {
-
-    /*text*/
-    color: var(--clr-main);
-
-    /*box*/
-    border: var(--clr-main) solid 2px;
-    background-color: var(--clr-supplementary);
-}
 
 /*VALUES SECTION*/
 
@@ -824,6 +821,7 @@ footer {
 
     /*dimensions*/
     height: 130px;
+
 }
 
 .form-container {
@@ -966,12 +964,18 @@ footer {
     color: var(--clr-shadows);
 }
 
-.map {
+.map iframe {
+
     /*position*/
-    padding: 10px;
+    margin: 20px 10%;
 
     /*dimensions*/
-    max-width: 600px;
+    width: 80%;
+
+    /*box*/
+    border: var(--clr-highlights) 3px solid;
+    border-radius: 15px;
+    box-shadow: var(--clr-shadows) 0 2px 2px;
 
 }
 
