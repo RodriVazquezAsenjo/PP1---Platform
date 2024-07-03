@@ -11,10 +11,17 @@
 
 /* Body Styling */
 body {
-    color: #f9d8d2;
-    height: 800px;
-    background-color: #074B64;
+
+    /*dimensions*/
+    min-height: 100vh;
     overflow-x: hidden;
+
+    /*box*/
+    background-color: #f9d8d2;
+    
+    /*text*/
+    color: #f9d8d2;
+
 }
 
 /* Header Styling */
@@ -165,6 +172,10 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
+main {
+    background-color: #074B64;
+    min-height: calc(100vh - 154px);
+}
 /* LANDING VIDEO */
 .hero-videos {
     /*dimensions*/
@@ -545,10 +556,13 @@ footer {
     bottom: 0;
     padding: 10px;
 
+    /*dimensions*/
+    height:fit-content;
 
     /*flex-box*/
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
 
     /*box*/
     background-color: #f9d8d2;
