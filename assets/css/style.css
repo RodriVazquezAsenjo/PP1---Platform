@@ -854,7 +854,6 @@ footer {
     justify-content: center;
 
     /*box*/
-    background-color: var(--clr-secondary);
     border: var(--clr-highlights) 3px solid;
     border-radius: 15px;
     box-shadow: var(--clr-shadows) 0 2px 2px;
