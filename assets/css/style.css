@@ -18,15 +18,22 @@
     font-family: 'Comfortaa', sans-serif;
 }
 
+html{
+
+    /*box*/
+    background-color: var(--clr-main);
+}
 /* Body Styling */
 body {
 
     /*dimensions*/
     min-height: 100vh;
+    max-width: 1800px;
     overflow-x: hidden;
 
-    /*box*/
-    background-color: ;
+    /*position*/
+    margin-left: auto;
+    margin-right: auto;
     
     /*text*/
     color: var(--clr-supplementary);
@@ -38,12 +45,12 @@ header {
 
     /*position*/
     position: fixed;
-    margin-right: 30px;
     padding: 1rem 1rem;
     z-index: 99;
 
     /*dimensions*/
     width: 100%;
+    max-width: 1800px;
 
     /*flex-box*/
     display: flex;
@@ -59,15 +66,16 @@ header {
 #logo {
 
     /*text*/
-    font-size: 200%;
+    font-size: 2rem;
+    transform-origin: left;
+    transition: 0.2s ease-in-out;
 }
 
 #logo:hover {
 
     /*text*/
-    font-size:220%;
     color: var(--clr-highlights);
-    -webkit-animation: 0.2s ease-in-out;
+    transform: scale(1.2);
 }
 
 header a {
@@ -147,7 +155,7 @@ nav {
     /*animation*/
     visibility:hidden;
     opacity: 0;
-    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     
 }
 
@@ -174,11 +182,17 @@ nav {
     font-size: 2rem;
 }
 
+#menu li{
+
+    font-size: 1.25rem;
+    transform-origin: center;
+    transition: 0.2s ease-in-out;
+}
+
 #menu li:hover {
     color:var(--clr-highlights);
-    font-size: 130%;
+    transform: scale(1.2);
     text-decoration: underline;
-    transition: 0.2s ease-in-out;
 }
 
 main {
@@ -267,7 +281,6 @@ main {
     /*position*/
     margin: 0 auto;
     width: 60%;
-    min-width: 400px;
     gap: 30px;
 
     /*flexbox*/
@@ -295,6 +308,9 @@ main {
     /*text*/
     font-size: 130%;
     color: var(--clr-supplementary);
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 .propaganda > button:hover {
 
@@ -305,8 +321,7 @@ main {
     border: var(--clr-highlights) solid 2px;
 
     /*animation*/
-    transition: 0.3s;
-    scale: 1.1;
+    transform: scale(1.2);
 }
 
 .propaganda > button:active {
@@ -318,7 +333,7 @@ main {
     color: var(--clr-shadows);
 
     /*animation*/
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 .propaganda-button {
@@ -378,7 +393,7 @@ justify-content: flex-start;
 
     /*dimensions*/
     width: 100%;
-    height:auto;
+    height: 200px;
 
     /*flex-box*/
     display:flex;
@@ -576,7 +591,7 @@ footer {
     /*text*/
     color: var(--clr-shadows);
     text-align: center;
-    font-size: 75%;
+    font-size: 0.75rem;
 
 }
 
@@ -612,25 +627,24 @@ footer {
     padding-bottom: 1rem;
 
     /*text*/
-    font-size: 120%;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
 }
 
-.address a {
+.address a{
 
     /*text*/
     text-decoration: none;
     color: inherit;
 }
 
-.address a:hover {
+.address:hover {
 
     /*animation*/
-    font-size:110%;
-    color:var(--clr-secondary);
-    transition: 0.3s;
+    color:var(--clr-highlights);
+    transform: scale(1.2);
 }
 .socials {
 
@@ -640,6 +654,10 @@ footer {
     /*flex-box*/
     display:flex;
     flex-direction: column;
+
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 
 .social-media-links {
@@ -648,25 +666,24 @@ footer {
     display: flex;
     flex-wrap: 1;
     justify-content: center;
-    gap:10%;
+    gap:1rem;
+    font-size: 4 rem;
 
-    /*text*/
-    font-size: 140%;
 }
 
 .social-media-links i {
 
     /*text*/
-    color: var(--clr-shadows)
+    color: var(--clr-shadows);
+    transition: 0.3s;
     
 }
 
 .social-media-links i:hover {
     
     /*animation*/
-    color: var(--clr-secondary);
-    font-size: 180%;
-    transition: 0.3s
+    color: var(--clr-highlights);
+    transform: scale(2);
 }
 
 .shortcuts ul {
