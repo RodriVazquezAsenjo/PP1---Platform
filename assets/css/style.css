@@ -67,7 +67,7 @@ header {
     /*text*/
     font-size:220%;
     color: var(--clr-highlights);
-    transition: 0.2s ease-in-out;
+    -webkit-animation: 0.2s ease-in-out;
 }
 
 header a {
