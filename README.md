@@ -26,49 +26,33 @@ avant-garde philosophy by the mentoring company.
 At this level in the strategy plane, the objectives and the users
 serving those goals are identified.
 
-- **Product Objective**: To create a platform where potential users will
-  > be attracted to sign up to the mentorship program.
+- **Product Objective**: To create a platform where potential users will be attracted to sign up to the mentorship program.
 
 - **User Needs**:
 
-  - **Client:** To transmit in a clear and concise idea the company
-    > image, and to provide a way for the potential mentees to sign up
-    > to the program.
+  - **Client:** To transmit in a clear and concise idea the company image, and to provide a way for the potential mentees to sign up to the program.
 
-  - **Customer:** To be able to find all the information required to
-    > make an informed decision on signing up to the mentorship.
+  - **Customer:** To be able to find all the information required to make an informed decision on signing up to the mentorship.
 
-- **Business Objectives**: To attract customers, and increase uptake of
-  > customers.
+- **Business Objectives**: To attract customers, and increase uptake of customers.
 
 #### **User Stories:**
 
-- **Client Story \#1:** To create a modern website which displays the
-  > identity and values of the company.
+- **Client Story \#1:** To create a modern website which displays the identity and values of the company.
 
-  - **<u>Acceptance:</u>** The website will be dynamic and modern in
-    > aesthetics, it’ll include values and collaborators to provide a
-    > sense of identity and magnitude.
+  - **<u>Acceptance:</u>** The website will be dynamic and modern in aesthetics, it’ll include values and collaborators to provide a sense of identity and magnitude.
 
-- **Client Story \#2:** To quickly direct viewers to signing up for the
-  > course.
+- **Client Story \#2:** To quickly direct viewers to signing up for the course.
 
-  - **<u>Acceptance:</u>** The website will have numerous links to the
-    > sign up section, including a link on the landing page.
+  - **<u>Acceptance:</u>** The website will have numerous links to the sign up section, including a link on the landing page.
 
-- **Customer Story \#1:** I want to be able to quickly view the course
-  > program so that I can see if I’m interested in signing up for the
-  > course.
+- **Customer Story \#1:** I want to be able to quickly view the course program so that I can see if I’m interested in signing up for the course.
 
-  - **<u>Acceptance:</u>** The website will include a link on the
-    > landing page to view the course program.
+  - **<u>Acceptance:</u>** The website will include a link on the landing page to view the course program.
 
-- **Customer Story \#2:** I want to view the different mentors I can
-  > apply including their area of expertise, a profile picture and a
-  > short bio.
+- **Customer Story \#2:** I want to view the different mentors I can apply including their area of expertise, a profile picture and a short bio.
 
-  - **<u>Acceptance:</u>** The website will include a section only on
-    > the mentors.
+  - **<u>Acceptance:</u>** The website will include a section only on the mentors.
 
 ### **2. Scope Plane**
 
