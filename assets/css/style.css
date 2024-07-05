@@ -305,7 +305,7 @@ main {
     justify-content: center;
 }
 
-.propaganda > button {
+.propaganda > a {
 
     /*dimensions*/
     width: 100%;
@@ -325,11 +325,12 @@ main {
     /*text*/
     font-size: 130%;
     color: var(--clr-supplementary);
+    text-align: center;
 
     /*animation*/
     transition: 0.3s ease-in-out;
 }
-.propaganda > button:hover {
+.propaganda > a:hover {
 
     /*text*/
     color:var(--clr-highlights);
@@ -341,7 +342,7 @@ main {
     transform: scale(1.2);
 }
 
-.propaganda > button:active {
+.propaganda > a:active {
 
     /*box*/
     background-color: var(--clr-highlights);
@@ -969,6 +970,9 @@ footer:hover {
     /*position*/
     padding: 0 5px 10px;
 
+    /*text*/
+    font-size: 1rem;
+
 }
 
 .signup-form {
@@ -1042,30 +1046,36 @@ footer:hover {
     /*dimensions*/
     width: 60%;
     max-width: 200px;
+
+    /*text-align*/
+    text-align: center;
 }
 
 #coverletter {
 
     /*dimensions*/
     min-height: 200px;
+    font: 'comfortaa', sans-serif;
+    font-size: 1rem;
 
 }
-
-
-
 
 .button-container button {
 
     /*position*/
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px;
 
-    /*dimensions*/
-    height: 40px;
 
     /*box*/
     border: var(--clr-supplementary) 2px solid;
     border-radius: 20px;
     background-color: var(--clr-supplementary);
+
+    /*text*/
+    text-decoration: none;
+    color: var(--clr-main);
 
     /*animation*/
     transition: 0.3s ease-in-out;
