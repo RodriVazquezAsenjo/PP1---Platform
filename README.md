@@ -1,14 +1,14 @@
-#**Overview**
+# Overview
 
 Platform is  a website produced as a deliverable for the Code Institute Full Stack Development Software Diploma course. It presents a mentoring services company and highlights knowledge on HTML5, CSS and UI/UX design. 
 The company offers a mentoring course with a number of different mentors to adjust to the mentees requirements. Users will come to this website and view a modern and clean aesthetic which aims to represent an avant-garde philosophy by the mentoring company.
 
 
-Table of Contents.
+# Table of Contents.
 
 
-User Experience
-1. Strategy Plane
+## User Experience
+### 1. Strategy Plane
 Purpose
 At this level in the strategy plane, the objectives and the users serving those goals are identified. 
 Product Objective: To create a platform where potential users will be attracted to sign up to the mentorship program. 
@@ -26,12 +26,12 @@ Acceptance: The website will include a link on the landing page to view the cour
 Customer Story #2: I want to view the different mentors I can apply including their area of expertise, a profile picture and a short bio. 
 Acceptance: The website will include a section only on the mentors. 
 
-2. Scope Plane
+### 2. Scope Plane
 Once the strategy is set and the abstract objectives have been defined, we can contextualize this in the Scope Plane. The objectives will be reviewed into clear goals, which will be fulfilled by a list of features the website will need to follow. 
 Features
 The website will have three different pages which will be accessible at any point from any of the pages, you’ll land on the home page which will include course information and a link to the sign up form. It will also include partners the company regularly interacts with and values which they stand for. The second page will be solely on the information regarding the different mentors available, while the third page will have the sign up form, and the contact information. 
 
-3. Structure Plane
+### 3. Structure Plane
 On the structure plane, the ways in which the user navigates the website are defined, where will the user land, what will be his options from where he lands and further on. 
 
 As the user accesses the website, he’ll be landing on the home page, where he will be greeted by a hero video clearly portraying a sense of professional development. Here, he’ll notice the navigation bar at the top, present in all pages, which will be able to take him to a mentor page and a signup page, and just below the video he’ll find two buttons supported by a slogan which will give him the option to download the course program and to sign up.
@@ -41,12 +41,12 @@ If the user decides to scroll down the website, he’ll view the values the comp
 If the user decides to instead click on either of the links at the top of the website, he’ll be redirected to the mentors or sign up form. 
 The mentors webpage will have display in a minimalistic view the different mentors available together with a short description and their name. The sign up page will have a form requesting contact information from the user together with a text box where the applicant can state what his intentions are with the course to be best matched with a mentor. This site will also have contact information. 
 
-4. Skeleton Plane
+### 4. Skeleton Plane
 Layout
 Wireframes: can this be done in iOS Notes?
 
 
-5. Surface Plane
+### 5. Surface Plane
 The surface plane is concerned with the visual aspects of the specific features of the site. Below is each one listed with the design principles alongside. 
 Font used: Comfortaa.
 Color scheme used:
@@ -56,14 +56,14 @@ Secondary Color:
 Highlights Color:
 Shadows Color:
 
-Feature #1: Navigation Bar
+#### Feature #1: Navigation Bar
 The navigation bar will be present in every page. It will show the logo at the top left and the navigation options on the top right. All of these features will be animated when hovered over in a similar fashion, scaling up and changing color to the highlights color. Additionally, the selected website will be enlarged and have an underline. 
 It is worth noting that in resolutions smaller than 768px, the navigation bar links will be collapsed into a burger menu. 
 
-Feature #2: Hero Video
+#### Feature #2: Hero Video
 The landing video is displayed across the entire width, on autoplay, looped and muted. 
 
-Feature #3: Propaganda section buttons and slogan. 
+#### Feature #3: Propaganda section buttons and slogan. 
 The website maintains a consistent presentation across the pages, enveloping the headers into a off-white rounded boxes. Boxes will have rounded edges, and be animated on hovering and on selecting. This will be done by scaling up and changing the color distribution. 
 
 On the values section, there will be a number of cards which pull down on hovering which reveal the description for each of the values. 
@@ -84,9 +84,9 @@ The contact information is found adjacently to an interactive map of the address
 The logo will be found
 (Color Schemes, principles of design, typography, 
 
-Technologies Used
+## Technologies Used
 This project has been completed using the following:
-Languages:
+### Languages:
 HTML5
 CSS
 Resource Libraries:
@@ -100,20 +100,20 @@ Font Awesome
 (iOS Notes)?
 (Should I put any reference code I’ve checked out?)
 
-Testing
+### Testing
 Testing of this website has been done as follows:
 Validators:
 Google Lighthouse: Measures the performance, accessibility, best practices and SEO.
 HTML Validator: Checks for any errors in the HTML code.
 CSS Validator: Checks for any errors in the CSS code. 
 
-Browser compatibility:
+### Browser compatibility:
 
 Chrome: Pass
 Safari / Edge: One animation bugging
 Firefox: ??? 
 
-Functionality
+### Functionality
 Test ID
 Test Label
 Test Action
@@ -233,9 +233,9 @@ Pass.
 
 
 
-Responsiveness
+## Responsiveness
 
-Deployment
+## Deployment
 Deployment of this website has been done through the repository found in GitHub. (https://github.com/RodriVazquezAsenjo/PP1---Platform)
 Once in this link, click on the settings tab on the top navigation bar.
 After, click on the pages tab on the left-hand menu under the code and automation section.
@@ -261,18 +261,18 @@ Once forked, click on the GitPod Button.
 Note:
 Any changes pushed to the main branch will automatically show up to the main site. 
 
-Credits
-Content:
+## Credits
+### Content:
 ChatGPT4.0 has been used to create the downloadable course content .pdf and the bios for the mentor cards. Any other content has been written by the developer. 
-Imagery:
+### Imagery:
 Images have been obtained from pexels.
 Video have been obtained from Canva.
-Code:
+### Code:
 Pull down animations have been based on example code from Codepen, link here. Created by Tuan, August 28th 2021. 
 Scrolling gallery has been inspired by youtube content by Online Tutorials, in the video “Infinite Scrolling Animation | CSS Only Text and Image Carousel” uploaded here on the 17th October 2023.
 
 
-Acknowledgements
+# Acknowledgements
 Many thanks to my mentor Brian Macharia whose advice in coding has been instrumental to the development of this website. 
 Contact Information
 Lead Designer: Rodrigo Vázquez Asenjo
