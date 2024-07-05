@@ -1,3 +1,7 @@
+# Platform README.md
+
+Link to live website: (https://rodrivazquezasenjo.github.io/PP1---Platform/)
+
 ## **Overview**
 Platform is a website produced as a deliverable for the Code Institute Full Stack Development Software Diploma course. It presents a mentoring services company and highlights knowledge on HTML5, CSS and UI/UX design. 
 
