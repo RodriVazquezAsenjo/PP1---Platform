@@ -968,13 +968,24 @@ footer:hover {
 
     /*position*/
     padding: 0 5px 10px;
+
+}
+
+.signup-form {
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 
 .signup-form label {
     
     /*position*/
     padding: 1rem;
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
+
 .signup-form input{
     
 
@@ -989,29 +1000,30 @@ footer:hover {
 
     /*text*/
     color: var(--clr-supplementary);
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
+
 }
 
 .signup-form input:hover {
 
     /*animation*/
-    border: var(--clr-supplementary) 1px solid;
-    transition: 0.3s;
+    border: var(--clr-highlights) 2px solid;
 }
 
 .form-entry:hover label {
 
     /*animation*/
     color:var(--clr-highlights);
-    transition: 0.3s;
 }
 .signup-form input:focus {
 
     /*animation*/
     background-color: var(--clr-supplementary);
     outline: var(--clr-highlights);
-    color:var(--clr-shadows);
-    transition: 0.3s;
-    scale: 1.05;
+    color:var(--clr-main);
+    transform: scale(1.025);
 }
 
 .form-entry:focus-within label{
@@ -1019,7 +1031,6 @@ footer:hover {
     /*animation*/
     font-size: 130%;
     color:var(--clr-highlights);
-    transition: 0.3s;
 }
 
 .button-container {
@@ -1032,6 +1043,17 @@ footer:hover {
     width: 60%;
     max-width: 200px;
 }
+
+#coverletter {
+
+    /*dimensions*/
+    min-height: 200px;
+
+}
+
+
+
+
 .button-container button {
 
     /*position*/
@@ -1118,8 +1140,9 @@ footer:hover {
 }
 
 .contact-address a {
+
     /*text*/
-    color: var(--clr-highlights);
+    color: inherit;
 
     /*animation*/
     transition: 0.3s ease-in-out;
