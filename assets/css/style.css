@@ -320,8 +320,7 @@ main {
     /*box*/
     border: var(--clr-supplementary) solid 2px;
     border-radius: 30px;
-    box-shadow: var(--clr-shadows) 0 2px 2px;
-    background-color: var(--clr-secondary);
+    background-color: var(--clr-main);
 
     /*text*/
     font-size: 130%;
@@ -439,7 +438,6 @@ justify-content: flex-start;
 
     /*box*/
     background-color: var(--clr-supplementary);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     border-radius: 15px;
 
     /*text*/
@@ -607,10 +605,10 @@ footer {
     flex: 1 0 auto;
 
     /*box*/
-    background-color: var(--clr-supplementary);
+    background-color: var(--clr-main);
 
     /*text*/
-    color: var(--clr-shadows);
+    color: var(--clr-supplementary);
     text-align: center;
     font-size: 0.85rem;
 
@@ -666,6 +664,11 @@ footer:hover {
     text-decoration: underline;
 }
 
+.address {
+
+    transform-origin: top;
+}
+
 .address:hover {
 
     /*animation*/
@@ -706,7 +709,7 @@ footer:hover {
 .social-media-links i {
 
     /*text*/
-    color: var(--clr-shadows);
+    color: var(--clr-supplementary);
     transition: 0.3s;
     font-size: 1.75rem;
 
@@ -834,7 +837,8 @@ footer:hover {
     /*text*/    
     font-size: 150%;
     text-transform: uppercase;
-    color: var(--clr-shadows);
+    font-weight: 900;
+    color: var(--clr-secondary);
 }
 
 .mentor-card-main img {
@@ -865,7 +869,7 @@ footer:hover {
     max-width: 400px;
 
     /*box*/
-    background-color: var(--clr-shadows);
+    background-color: var(--clr-secondary);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
@@ -906,7 +910,7 @@ footer:hover {
 .form-container {
 
     /*position*/
-    margin: 20px auto;
+    margin: 50px auto 40px;
     padding: 10px;
 
     /*dimensions*/
@@ -919,9 +923,8 @@ footer:hover {
     justify-content: center;
 
     /*box*/
-    border: var(--clr-highlights) 3px solid;
+    border: var(--clr-supplementary) 3px solid;
     border-radius: 15px;
-    box-shadow: var(--clr-shadows) 0 2px 2px;
 
     /*text*/
     line-height: 1.4;
@@ -936,6 +939,7 @@ footer:hover {
     /*animation*/
     border-color: var(--clr-supplementary);
     background-color: var(--clr-secondary);
+    transform: scale(1.05);
 }
 
 
@@ -951,7 +955,7 @@ footer:hover {
     padding-bottom: 25px;
 
     /*text*/
-    color: var(--clr-highlights);
+    color: var(--clr-supplementary);
     font-size: 150%;
     font-weight: bold;
     text-decoration: underline;
@@ -979,10 +983,9 @@ footer:hover {
     padding: 5px 10px;
 
     /*box*/
-    background-color: var(--clr-shadows);
-    border: var(--clr-secondary) 2px solid;
+    background-color: var(--clr-secondary);
+    border: var(--clr-supplementary) 2px solid;
     border-radius: 15px;
-    box-shadow: var(--clr-shadows) 0 1px 2.5px;
 
     /*text*/
     color: var(--clr-supplementary);
@@ -1078,6 +1081,48 @@ footer:hover {
     border-radius: 15px;
     box-shadow: var(--clr-shadows) 0 2px 2px;
 
+    /*animation*/
+    transition: 0.3s ease-in-out;
+
+}
+
+.map iframe:hover {
+
+    /*animation*/
+    transform: scale(1.05);
+}
+
+.contact-address {
+    /*position*/
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 0;
+
+    /*dimensions*/
+    width:60%;
+
+    /*text*/
+
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+
+.contact-address h3 {
+
+    /*text*/
+    padding-bottom: 7.5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact-address a {
+    /*text*/
+    color: var(--clr-highlights);
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
