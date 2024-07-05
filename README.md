@@ -1,19 +1,16 @@
 ## **Overview**
-
-## Platform is a website produced as a deliverable for the Code Institute Full Stack Development Software Diploma course. It presents a mentoring services company and highlights knowledge on HTML5, CSS and UI/UX design. 
+Platform is a website produced as a deliverable for the Code Institute Full Stack Development Software Diploma course. It presents a mentoring services company and highlights knowledge on HTML5, CSS and UI/UX design. 
 
 The company offers a mentoring course with a number of different mentors
 to adjust to the mentees requirements. Users will come to this website
 and view a modern and clean aesthetic which aims to represent an
 avant-garde philosophy by the mentoring company.
 
-**Table of Contents.**
+## Table of Contents.
 
-**User Experience**
+## User Experience
 
-## **1. Strategy Plane**
-
-### **Purpose**
+### **1. Strategy Plane**
 
 At this level in the strategy plane, the objectives and the users
 serving those goals are identified.
@@ -33,7 +30,7 @@ serving those goals are identified.
 - **Business Objectives**: To attract customers, and increase uptake of
   > customers.
 
-### **User Stories:**
+#### **User Stories:**
 
 - **Client Story \#1:** To create a modern website which displays the
   > identity and values of the company.
@@ -62,14 +59,14 @@ serving those goals are identified.
   - **<u>Acceptance:</u>** The website will include a section only on
     > the mentors.
 
-## **2. Scope Plane**
+### **2. Scope Plane**
 
 Once the strategy is set and the abstract objectives have been defined,
 we can contextualize this in the Scope Plane. The objectives will be
 reviewed into clear goals, which will be fulfilled by a list of features
 the website will need to follow.
 
-### **Features**
+#### **Features**
 
 The website will have three different pages which will be accessible at
 any point from any of the pages, you’ll land on the home page which will
@@ -79,7 +76,7 @@ they stand for. The second page will be solely on the information
 regarding the different mentors available, while the third page will
 have the sign up form, and the contact information.
 
-## **3. Structure Plane**
+### **3. Structure Plane**
 
 On the structure plane, the ways in which the user navigates the website
 are defined, where will the user land, what will be his options from
@@ -110,13 +107,12 @@ from the user together with a text box where the applicant can state
 what his intentions are with the course to be best matched with a
 mentor. This site will also have contact information.
 
-## **4. Skeleton Plane**
+### **4. Skeleton Plane**
 
-### **Layout**
+At the skeleton plane the layout of the website is designed. Wireframes can be used for this:
 
-Wireframes: can this be done in iOS Notes?
 
-## **5. Surface Plane**
+### **5. Surface Plane**
 
 The surface plane is concerned with the visual aspects of the specific
 features of the site. Below is each one listed with the design
@@ -210,7 +206,7 @@ The logo will be found
 
 *(Color Schemes, principles of design, typography,*
 
-## **Technologies Used**
+### **Technologies Used**
 
 This project has been completed using the following:
 
@@ -232,15 +228,13 @@ This project has been completed using the following:
 
 - Font Awesome
 
-- (Balsamiq)?
+- Code Beautify
 
-- (Beautify.io)?
-
-- (iOS Notes)?
+- iOS Notes
 
 *(Should I put any reference code I’ve checked out?)*
 
-## **Testing**
+### **Testing**
 
 Testing of this website has been done as follows:
 
