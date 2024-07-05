@@ -8,6 +8,17 @@ avant-garde philosophy by the mentoring company.
 
 ## Table of Contents.
 
+1. [Overview](#overview)
+2. [User Experience](#user-experience)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [Acknowledgements](#acknowledgements)
+8. [Contact Information](#contact-information)
+
+
+
 ## User Experience
 
 ### **1. Strategy Plane**
