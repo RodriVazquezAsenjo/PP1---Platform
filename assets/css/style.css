@@ -482,7 +482,7 @@ justify-content: flex-start;
     padding: 10px 15px;
 
     /*text*/
-    color: var(--clr-secondary);
+    color: var(--clr-main);
     text-align: center;
 
     /*animations*/
@@ -926,6 +926,22 @@ footer:hover {
     /*text*/
     line-height: 1.4;
 
+    /*animation*/
+    transition: 0.3s ease-in-out;
+
+}
+
+.form-container:hover {
+
+    /*animation*/
+    border-color: var(--clr-supplementary);
+    background-color: var(--clr-secondary);
+}
+
+
+.form-container:hover h3{
+
+    color: var(--clr-supplementary)
 }
 
 .form-container h3 {
@@ -939,6 +955,9 @@ footer:hover {
     font-size: 150%;
     font-weight: bold;
     text-decoration: underline;
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 
 .form-entry {
@@ -1019,9 +1038,12 @@ footer:hover {
     height: 40px;
 
     /*box*/
-    border:#var(--clr-shadows) 2px solid;
+    border: var(--clr-supplementary) 2px solid;
     border-radius: 20px;
     background-color: var(--clr-supplementary);
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 
 }    
 .button-container button:hover {
