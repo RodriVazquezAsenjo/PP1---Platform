@@ -1,4 +1,5 @@
-Overview
+#**Overview**
+
 Platform is  a website produced as a deliverable for the Code Institute Full Stack Development Software Diploma course. It presents a mentoring services company and highlights knowledge on HTML5, CSS and UI/UX design. 
 The company offers a mentoring course with a number of different mentors to adjust to the mentees requirements. Users will come to this website and view a modern and clean aesthetic which aims to represent an avant-garde philosophy by the mentoring company.
 
