@@ -510,9 +510,6 @@ To clone a code you’ll need to follow these steps:
 It is worth noting that any pushes intended to be done to the original
 code will request approval from the author of the original code.
 
-*Forking will be in a new repo belonging to them. If you make changes to
-your repo, they’ll be informed and have the option to pull from yours.*
-
 **Git Fork**
 
 An alternative to cloning, which maintains a relationship to the
@@ -528,11 +525,6 @@ To create a fork, follow these steps:
 2.  Click on the fork button on the top-right corner, above the GitPod button.
 
 3.  Once forked, click on the GitPod Button.
-
-**Note:**
-
-*Any changes pushed to the main branch will automatically show up to the
-main site.*
 
 ## **Credits**
 
