@@ -66,9 +66,9 @@ header {
 #logo {
 
     /*text*/
-    font-size: 2rem;
+    font-size: 1.8rem;
     transform-origin: left;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #logo:hover {
@@ -186,7 +186,7 @@ nav {
 
     font-size: 1.25rem;
     transform-origin: center;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #menu li:hover {
@@ -281,7 +281,7 @@ main {
     /*position*/
     margin: 0 auto;
     width: 60%;
-    gap: 30px;
+    gap: 50px;
 
     /*flexbox*/
     display: flex;
@@ -428,7 +428,7 @@ justify-content: flex-start;
     text-align: center;
 
     /*animation*/
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -469,7 +469,7 @@ justify-content: flex-start;
     /*animations*/
     visibility: hidden;
     opacity: 0;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -487,7 +487,7 @@ justify-content: flex-start;
     /*animation*/
     visibility: hidden;
     opacity: 1;
-    transition-delay: 0.2s;
+    transition-delay:0.3s;
 }
 
 .card-container .card:hover .card-back {
@@ -756,6 +756,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .mentor-card {
@@ -781,6 +782,7 @@ footer {
     
     /*box*/
     border-radius: 10px;
+
 
 }
 
@@ -813,6 +815,10 @@ footer {
 
     /*image*/
     filter: grayscale(1) brightness(0.8);
+
+
+    /*animation*/
+    transition: 0.3s ease-in-out;
 }
 
 .mentor-card-slideout {
@@ -837,7 +843,7 @@ footer {
     visibility: hidden;
     opacity: 0;
     transform: translateY(-20px);
-    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -853,7 +859,6 @@ footer {
     /*animation*/
     filter: grayscale(0);
     scale: 1.1;
-    transition: 0.2s ease-in-out;
 }
 
 /*CONTACT PAGE*/
@@ -991,7 +996,7 @@ footer {
     /*animation*/
     scale: 1.1;
     color: var(--clr-highlights);
-    transition: 0.2s;
+    transition: 0.3s;
     border: var(--clr-highlights) 2px solid;
     font-weight: bold;
 }
@@ -1059,16 +1064,28 @@ nav {
     display: none;
 }
 
+
 #logo {
 
     /*position*/
     margin: 0 0.5rem;
 
     /*text*/
-    font-size: 280%;
+    font-size: 2.75rem;
     line-height: 75px;
 }
 
 #logo:hover {
-    font-size: 320%;
+    transform: scale(1.2);
+}
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .propaganda {
+
+        gap: 14.285%;
+    
+}
 }
