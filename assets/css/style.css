@@ -492,6 +492,7 @@ main {
 
   /*dimensions*/;
   height: 100px;
+  max-width: 250px;
 
   /*flex-box*/
   display: -webkit-box;
@@ -763,9 +764,9 @@ footer:hover {
 .address:hover {
   /*animation*/
   color: var(--clr-highlights);
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .address a {
