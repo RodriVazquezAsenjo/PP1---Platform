@@ -490,8 +490,7 @@ main {
   margin: 15px 5px 80px;
   padding: 20px 10px;
 
-  /*dimensions*/
-  max-width: 250px;
+  /*dimensions*/;
   height: 100px;
 
   /*flex-box*/
@@ -898,6 +897,9 @@ footer:hover {
 .mentor-card {
   /*position*/
   position: relative;
+
+  /*dimensions*/
+  width:100%;
   max-width: 400px;
 
   /*flex-box*/
@@ -937,9 +939,8 @@ footer:hover {
   width: auto;
 
   /*text*/
-  font-size: 150%;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: 900;
   color: var(--clr-secondary);
 }
 
