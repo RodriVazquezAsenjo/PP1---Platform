@@ -154,14 +154,14 @@ selected website will be enlarged and have an underline.
 It is worth noting that in resolutions smaller than 768px, the
 navigation bar links will be collapsed into a burger menu.
 
-<img src="media/image2.png" style="width:6.5in;height:0.38889in" />
+<img src="assets/readme-images/header.png" style="width:6.5in;height:0.38889in" />
 
 Feature \#2: Hero Video
 
 The landing video is displayed across the entire width, on autoplay,
 looped and muted.
 
-<img src="media/image8.png" style="width:6.5in;height:2.18056in" />
+<img src="assets/readme-images/herovideo.png" style="width:6.5in;height:2.18056in" />
 
 Feature \#3: Propaganda section buttons and slogan.
 
@@ -170,32 +170,41 @@ enveloping the headers into a off-white rounded boxes. Boxes will have
 rounded edges, and be animated on hovering and on selecting. This will
 be done by scaling up and changing the color distribution.
 
-<img src="media/image1.png" style="width:6.5in;height:0.70833in" />
+<img src="assets/readme-images/propaganda.png" style="width:6.5in;height:0.70833in" />
+
+Feature \#4: Values section.
 
 On the values section, there will be a number of cards which pull down
 on hovering which reveal the description for each of the values.
 
-<img src="media/image3.png" style="width:6.5in;height:1.31944in" />
+<img src="assets/readme-images/values.png" style="width:6.5in;height:1.31944in" />
+
+Feature \#5: Partners section.
 
 On the partners section, a scrolling gallery has been added, showing
 with more dynamicity and interest the logos of the companies
 \[platform\] is involved
-with.<img src="media/image4.png" style="width:6.5in;height:1.40278in" />
+with.<img src="assets/readme-images/partners.png" style="width:6.5in;height:1.40278in" />
 
+Feature \#6: Footer section.
 The footer section shows the address of the company, the social media
 links and a further navigation link option. Each of the elements will be
 scaled and change color when hovered over.
 
-<img src="media/image6.png" style="width:6.5in;height:0.93056in" />
+<img src="assets/readme-images/footer.png" style="width:6.5in;height:0.93056in" />
+
+Feature \#7: Mentors section.
 
 The mentors section shows clearly profile images of each of the mentors,
 on a dimmed grayscale. When hovered over, the images will turn into
 color and a bio including the relevant industry will pull down from each
 of the cards.
 
-<img src="media/image9.png" style="width:6.5in;height:3.06944in" />
+<img src="assets/readme-images/mentors.png" style="width:6.5in;height:3.06944in" />
 
-<img src="media/image5.png" style="width:6.5in;height:3.11111in" />
+<img src="assets/readme-images/mentorsanimated.png" style="width:6.5in;height:3.11111in" />
+
+Feature \#8: Signup section.
 
 On the last page, the user will find the sign up form where the form
 will require First Name, Surname, Email address, Password and an
@@ -204,14 +213,16 @@ to join the mentorship program. Each of the items is animated
 differently on hovering and on selecting. The submit button is also
 animated.
 
-<img src="media/image7.png" style="width:6.5in;height:4.04167in" />
+<img src="assets/readme-images/signupform.png" style="width:6.5in;height:4.04167in" />
+
+Feature \#9: Embedded map section.
 
 The contact information is found adjacently to an interactive map of the
 address of the institute. The user will be able to access the map when
 clicked in, and will found the address and phone number and email
 address.
 
-<img src="media/image10.png" style="width:6.5in;height:3.38889in" />
+<img src="assets/readme-images/embeddedmap.png" style="width:6.5in;height:3.38889in" />
 
 The logo will be found
 
