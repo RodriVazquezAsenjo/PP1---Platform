@@ -1,252 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Platform">
-        <meta name="keywords" content="Platform, Networking, Network, London, London networking, networking in London, career, career networking, career London, career London networking">
-        <meta name="author" content="Rodrigo Vazquez">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        
-        <title>Home - [platform]</title>
-    </head>
-    <body>
-        <!-- Header including a logo and a navigation bar-->
-        <header>
-            <a href="index.html">
-                <h1 id="logo">[platform]</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Platform">
+    <meta name="keywords" content="Platform, Networking, Network, London, London networking, networking in London, career, career networking, career London, career London networking">
+    <meta name="author" content="Rodrigo Vazquez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <title>Home - [platform]</title>
+  </head>
+  <body>
+    <!-- Header including a logo and a navigation bar-->
+    <header>
+      <a href="index.html">
+        <h1 id="logo">[platform]</h1>
+      </a>
+      <!-- Checkbox for toggling the navigation bar-->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html" class="active" aria-label="visit our home page">Home</a>
+          </li>
+          <li>
+            <a href="mentor.html" aria-label="visit our mentor page">Mentors</a>
+          </li>
+          <li>
+            <a href="contact.html" aria-label="visit our contact page">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Hero videos-->
+      <section>
+        <div class="hero-videos">
+          <video autoplay loop muted id="hero-video">
+            <source src="assets/videos/woman-writing-on-sticky-notes.mp4" type="video/mp4"> Woman writing on sticky notes
+          </video>
+        </div>
+      </section>
+      <!-- Propaganda section -->
+      <section>
+        <div class="sectiondiv">
+          <div class="slogan-container-right">
+            <div class="slogan-right">
+              <h2>Elevate your skills to new levels</h2>
+            </div>
+          </div>
+          <div class="propaganda-container">
+            <form method="POST" class="propaganda">
+              <a href="assets/documents/course-content.pdf" download="course-content" class="propaganda-button">Download course content</a>
+              <a href="contact.html" class="propaganda-button">Sign-up</a>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Values section with cards -->
+      <section>
+        <div class="slogan-container-left">
+          <div class="slogan-left">
+            <h2>We stand for this</h2>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <h3>Next Generation</h3>
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+            <div class="card-back">
+              <p>We focus on next generation technologies to foster the best future career</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+              <h3>Innovation</h3>
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+            <div class="card-back">
+              <p>Innovation is at the core of our practice, to help you jumpstart the wave</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+              <h3>Creativity</h3>
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+            <div class="card-back">
+              <p>Firmly believe in creativity to tackle some of the worlds most relevant issues</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+              <h3>Flexibility</h3>
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+            <div class="card-back">
+              <p>We cater to our students and adjust around their timetable</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-front">
+              <h3>Support</h3>
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+            <div class="card-back">
+              <p>At [platform] we'll support you all the way through!</p>
+            </div>
+          </div>
+        </div>
+        <!-- Partners Section -->
+      </section>
+      <!-- Gallery Section -->
+      <section>
+        <!-- Title for the Section -->
+        <div class="slogan-container-right">
+          <div class="slogan-right">
+            <h2>Our Partners</h2>
+          </div>
+        </div>
+        <!-- Auto-scrolling Gallery -->
+        <div class="gallery">
+          <div class="gallery-track">
+            <div class="gallery-item">
+              <img src="assets/images/mercedes.webp" alt="mercedes company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/apple.webp" alt="apple company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/microsoft.webp" alt="microsoft company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/google.webp" alt="google company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/aws.webp" alt="aws company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/mercedes.webp" alt="mercedes company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/apple.webp" alt="apple company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/microsoft.webp" alt="microsoft company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/google.webp" alt="google company logo">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/images/aws.webp" alt="aws company logo">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <!-- Address -->
+        <div class="address">
+          <h3>Address:</h3>
+          <a href="contact.html" aria-label="visit our address section">
+            <p>1st Floor, Block 1, Blackrock Business Park, Carysfort Ave, Blackrock, Co</p>
+            <p>Dublin</p>
+            <p>7RXC 5GW</p>
+          </a>
+        </div>
+        <!-- Social Media -->
+        <div class="socials">
+          <h3>Social Media</h3>
+          <div class="social-media-links">
+            <a href="https://www.instagram.com" rel="noopener" aria-label="visit our instagram page">
+              <i class="fa-brands fa-instagram"></i>
             </a>
-            <!-- Checkbox for toggling the navigation bar-->
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html" class="active" aria-label="visit our home page">Home</a>
-                    </li>
-                    <li>
-                        <a href="mentor.html" aria-label="visit our mentor page">Mentors</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" aria-label="visit our contact page">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>  
-        </header>
-        
-        <main>
-
-            <!--Hero videos-->
-            <section>
-                <div class="hero-videos">
-                    <video autoplay loop muted id="hero-video">
-                        <source src="assets/videos/woman-writing-on-sticky-notes.mp4" type="video/mp4">
-                        Woman writing on sticky notes
-                    </video>
-                </div>
-            </section>
-
-            <!-- Propaganda section -->
-            <section>
-                <div class="sectiondiv">
-                <div class="slogan-container-right">
-                    <div class="slogan-right">
-                        <h2>Elevate your skills to new levels</h2>
-                    </div>
-                </div>
-
-                <div class="propaganda-container">
-
-                    <form method="POST" class="propaganda">
-
-                            <a href="assets/documents/course-content.pdf" download="course-content" class="propaganda-button">Download course content</a>
-
-                            <a href="contact.html" class="propaganda-button">Sign-up</a>
-
-
-                    </form>
-
-                </div>
-                </div>
-            </section>
-            <!-- Values section with cards -->
-            <section>
-
-                <div class="slogan-container-left">
-                    <div class="slogan-left">
-                        <h2>We stand for this</h2>
-                    </div>
-                </div>
-
-                <div class="card-container">
-                    <div class="card">
-                        <div class="card-front">
-                            <h3>Next Generation</h3>
-                            <i class="fa-solid fa-circle-chevron-down"></i>
-                        </div>
-                        <div class="card-back">
-                            <p>We focus on next generation technologies to foster the best future career</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                            <div class="card-front">
-                                <h3>Innovation</h3>
-                                <i class="fa-solid fa-circle-chevron-down"></i>
-                            </div>
-                            <div class="card-back">
-                                <p>Innovation is at the core of our practice, to help you jumpstart the wave</p>
-                            </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-front">
-                            <h3>Creativity</h3>
-                            <i class="fa-solid fa-circle-chevron-down"></i>
-                        </div>
-                        <div class="card-back">
-                            <p>Firmly believe in creativity to tackle some of the worlds most relevant issues</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-front">
-                            <h3>Flexibility</h3>
-                            <i class="fa-solid fa-circle-chevron-down"></i>
-                        </div>
-                        <div class="card-back">
-                            <p>We cater to our students and adjust around their timetable</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-front">
-                            <h3>Support</h3>
-                            <i class="fa-solid fa-circle-chevron-down"></i>
-                        </div>
-                        <div class="card-back">
-                            <p>At [platform] we'll support you all the way through!</p>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Partners Section -->
-            </section>
-            <!-- Gallery Section -->
-            <section>
-
-                <!-- Title for the Section -->
-                 <div class="slogan-container-right">
-                    <div class="slogan-right">
-                        <h2>Our Partners</h2>
-                    </div>
-                </div>
-                <!-- Auto-scrolling Gallery -->
-                <div class="gallery">
-
-                    <div class="gallery-track">
-
-                        <div class="gallery-item">
-                            <img src="assets/images/mercedes.webp" alt="mercedes company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/apple.webp" alt="apple company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/microsoft.webp" alt="microsoft company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/google.webp" alt="google company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/aws.webp" alt="aws company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/mercedes.webp" alt="mercedes company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/apple.webp" alt="apple company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/microsoft.webp" alt="microsoft company logo">
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/google.webp" alt="google company logo">
-                        
-                        </div>
-
-                        <div class="gallery-item">
-                            <img src="assets/images/aws.webp" alt="aws company logo">
-                        </div>
-                        
-                    </div>
-            </section>
-        </main>
-
-        <footer>
-
-            <div class="footer-main">
-                <!-- Address -->
-                <div class="address">
-                    <h3>Address:</h3>
-
-                    <a href="contact.html" aria-label="visit our address section">
-                        <p>1st Floor, Block 1, Blackrock Business Park, Carysfort Ave, Blackrock, Co</p>
-                        <p>Dublin</p>
-                        <p>7RXC 5GW</p>
-                    </a>
-                </div>
-            
-    
-            <!-- Social Media -->
-                <div class="socials">
-                    <h3>Social Media</h3>
-                    
-                    <div class="social-media-links">
-                        <a href="https://www.instagram.com" rel="noopener" aria-label="visit our instagram page"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com" rel="noopener" aria-label="visit our facebook page"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.twitter.com" rel="noopener" aria-label="visit our X page"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.gmail.com" rel="noopener" aria-label="link to gmail address"><i class="fa-regular fa-envelope"></i></a>
-                    </div>
-                </div>
-    
-             <!-- Links to different regions -->
-             <div class="shortcuts">
-                <h3>Navigation</h3>
-                    <ul>
-                        <li><a href="index.html" aria-label="visit our home page">Home</a></li>
-    
-                        <li><a href="mentor.html" aria-label="visit our mentor page">Mentors</a></li>
-    
-                        <li><a href="contact.html" aria-label="visit our contact page">Contact Us!</a></li>
-                    </ul>
-            </div>
-    
-            </div>
-             <!-- Diclaimer -->
-            <div class="disclaimer">
-                <p>This website is only for educational purposes</p>
-            </div>
-    
-    
-        </footer>
-    
-
-
+            <a href="https://www.facebook.com" rel="noopener" aria-label="visit our facebook page">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" rel="noopener" aria-label="visit our X page">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.gmail.com" rel="noopener" aria-label="link to gmail address">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Links to different regions -->
+        <div class="shortcuts">
+          <h3>Navigation</h3>
+          <ul>
+            <li>
+              <a href="index.html" aria-label="visit our home page">Home</a>
+            </li>
+            <li>
+              <a href="mentor.html" aria-label="visit our mentor page">Mentors</a>
+            </li>
+            <li>
+              <a href="contact.html" aria-label="visit our contact page">Contact Us!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Diclaimer -->
+      <div class="disclaimer">
+        <p>This website is only for educational purposes</p>
+      </div>
+    </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/92ae7cb8c0.js" crossorigin="anonymous"></script>
-
-    </body>
+  </body>
 </html>
