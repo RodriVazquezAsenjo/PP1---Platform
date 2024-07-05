@@ -164,14 +164,13 @@ header a {
   justify-content: center;
 
   /*text*/
-  font-size: 120%;
+  font-size: 1rem;
 }
 
 .active {
   /*text*/
   text-decoration: underline;
   font-weight: bold;
-  font-size: 110%;
 }
 nav {
   /*position*/
@@ -373,7 +372,7 @@ main {
   background-color: var(--clr-main);
 
   /*text*/
-  font-size: 130%;
+  font-size: 1.3rem;
   color: var(--clr-supplementary);
   text-align: center;
 
@@ -453,7 +452,7 @@ main {
   justify-content: flex-start;
 
   /*text*/
-  font-size: 150%;
+  font-size: 1.5rem;
   color: var(--clr-main);
   text-align: left;
 
@@ -864,7 +863,7 @@ footer:hover {
   padding: 10px;
 
   /*text*/
-  font-size: 75%;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -1067,7 +1066,7 @@ footer:hover {
 
   /*text*/
   color: var(--clr-supplementary);
-  font-size: 150%;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
 
@@ -1142,7 +1141,7 @@ footer:hover {
 
 .form-entry:focus-within label {
   /*animation*/
-  font-size: 130%;
+  font-size: 1.3rem;
   color: var(--clr-highlights);
 }
 #coverletter {
@@ -1209,6 +1208,7 @@ footer:hover {
   text-decoration: none;
   color: var(--clr-main);
   font-size: 1rem;
+  text-align: center;
 
   /*animation*/
   -webkit-transition: 0.3s ease-in-out;
