@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 :root {
-    --clr-main: #074B64;
+    --clr-main: #086586;
     --clr-supplementary: floralwhite;
     --clr-highlights: darkorange;
     --clr-shadows: #031f29;
-    --clr-secondary:#0a6080;
+    --clr-secondary:#0e789f;
 }
 
 
@@ -59,8 +59,20 @@ header {
 
     /*box*/
     background-color: var(--clr-main);
+    border: 3px solid;
+    border-bottom-color: var(--clr-supplementary);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+    transition: 0.3s ease-in-out;
     
 }
+
+header:hover {
+    border-bottom-color:var(--clr-highlights)
+}
+
 
 /* Logo Styling */
 #logo {
@@ -199,6 +211,7 @@ main {
     background-color: var(--clr-main);
     min-height: calc(100vh - 154px);
 }
+
 /* LANDING VIDEO */
 .hero-videos {
     /*dimensions*/
@@ -218,6 +231,7 @@ main {
     /*background*/
     filter: brightness(70%) blur(0%);
 }
+
 
 .slogan-container-right {
     /*dimensions*/
@@ -248,15 +262,18 @@ main {
     justify-content: flex-end;
 
     /*text*/
-    font-size: 150%;
-    color:var(--clr-highlights);
+    font-size: 1.5rem;
+    color:var(--clr-main);
     text-align: right;
+    font-weight: 400;
 
     /*box*/
     background-color: var(--clr-supplementary);
-    border: var(--clr-supplementary) 1px solid;
+    border: var(--clr-highlights) 2px solid;
+    border-right: none; 
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;  
+    transition: 0.3s;
 }
 
 .propaganda-container {
@@ -304,7 +321,7 @@ main {
     border: var(--clr-supplementary) solid 2px;
     border-radius: 30px;
     box-shadow: var(--clr-shadows) 0 2px 2px;
-    background-color: #0a6080;
+    background-color: var(--clr-secondary);
 
     /*text*/
     font-size: 130%;
@@ -377,12 +394,13 @@ justify-content: flex-start;
 
     /*text*/
     font-size: 150%;
-    color:var(--clr-highlights);
+    color:var(--clr-main);
     text-align: left;
 
     /*box*/
     background-color: var(--clr-supplementary);
-    border: var(--clr-supplementary) 1px solid;
+    border: var(--clr-highlights) 2px solid;
+    border-left: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;  
 }
@@ -420,12 +438,13 @@ justify-content: flex-start;
     flex-grow: 1;
 
     /*box*/
-    background-color: var(--clr-secondary);
+    background-color: var(--clr-supplementary);
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     border-radius: 15px;
 
     /*text*/
     text-align: center;
+    color: var(--clr-main);
 
     /*animation*/
     transition: 0.3s ease-in-out;
@@ -463,7 +482,7 @@ justify-content: flex-start;
     padding: 10px 15px;
 
     /*text*/
-    color: var(--clr-highlights);
+    color: var(--clr-secondary);
     text-align: center;
 
     /*animations*/
@@ -509,7 +528,7 @@ justify-content: flex-start;
     left: 50%;
 
     /*text*/
-    color: var(--clr-supplementary);
+    color: var(--clr-secondary);
 
     /*animation*/
     transform: translateX(-50%);
@@ -595,6 +614,15 @@ footer {
     text-align: center;
     font-size: 0.85rem;
 
+}
+
+footer {
+    border-top: var(--clr-supplementary) 3px solid;
+    transition: 0.3s ease-in-out;
+}
+
+footer:hover {
+    border-color: var(--clr-highlights)
 }
 
 .footer-main {
@@ -705,6 +733,11 @@ footer {
 
 .shortcuts li {
 
+
+    /*position*/
+    padding: 5px;
+
+    /*animation*/
     transition: 0.3s ease-in-out;
 }
 
@@ -801,7 +834,7 @@ footer {
     /*text*/    
     font-size: 150%;
     text-transform: uppercase;
-    color: var(--clr-highlights);
+    color: var(--clr-shadows);
 }
 
 .mentor-card-main img {
