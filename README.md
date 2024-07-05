@@ -254,30 +254,25 @@ This project has been completed using the following:
 
 - iOS Notes
 
-*(Should I put any reference code I’ve checked out?)*
-
 ### **Testing**
 
 Testing of this website has been done as follows:
 
 1.  <u>Validators:</u>
 
-- Google Lighthouse: Measures the performance, accessibility, best
-  > practices and SEO.
+- Google Lighthouse: Measures the performance, accessibility, best practices and SEO.
 
-- [HTML Validator](https://validator.w3.org/): Checks for any errors in
-  > the HTML code.
+- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any
-  > errors in the CSS code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.
 
 2.  <u>Browser compatibility:</u>
 
 - Chrome: Pass
 
-- Safari / Edge: One animation bugging
+- Safari / Edge: Hero video doesn't autoplay
 
-- Firefox: ???
+- Firefox: Pass
 
 3.  <u>Functionality</u>
 
@@ -483,7 +478,7 @@ unselected.</th>
 
 4.  <u>Responsiveness</u>
 
-<img src="media/image11.png" style="width:6.5in;height:4.26389in" />
+<img src="assets/readme-images/responsiveness.png" style="width:6.5in;height:4.26389in" />
 
 ## **Deployment**
 
@@ -520,18 +515,13 @@ downloaded to your local machine.
 
 To clone a code you’ll need to follow these steps:
 
-1.  Download the chrome extension for GitPod which can be found
-    > [<u>here</u>](https://chromewebstore.google.com/detail/gitpod/dodmmooeoklaejobgleioelladacbeki)
-    > and more information can be found
-    > [<u>here</u>](https://www.gitpod.io/docs/introduction).
+1.  Download the chrome extension for GitPod which can be found [<u>here</u>](https://chromewebstore.google.com/detail/gitpod/dodmmooeoklaejobgleioelladacbeki) and more information can be found [<u>here</u>](https://www.gitpod.io/docs/introduction).
 
 2.  Restart your browser.
 
 3.  Navigate to your desired Project Repository.
 
-4.  On the top right corner a GitPod button should be seen. If pressed,
-    > it will take you to the GitPod workspace and open up a copy of the
-    > project repository you wish.
+4.  On the top right corner a GitPod button should be seen. If pressed, it will take you to the GitPod workspace and open up a copy of the project repository you wish.
 
 It is worth noting that any pushes intended to be done to the original
 code will request approval from the author of the original code.
@@ -551,8 +541,7 @@ To create a fork, follow these steps:
 
 1.  Navigate to your desired repository.
 
-2.  Click on the fork button on the top-right corner, above the GitPod
-    > button.
+2.  Click on the fork button on the top-right corner, above the GitPod button.
 
 3.  Once forked, click on the GitPod Button.
 
@@ -563,19 +552,19 @@ main site.*
 
 ## **Credits**
 
-Content:
+### Content:
 
 ChatGPT4.0 has been used to create the downloadable course content .pdf
 and the bios for the mentor cards. Any other content has been written by
 the developer.
 
-Imagery:
+### Imagery:
 
 Images have been obtained from pexels.
 
 Video have been obtained from Canva.
 
-Code:
+### Code:
 
 Pull down animations have been based on example code from Codepen, link
 [<u>here</u>](https://codepen.io/keubibo/pen/yLXYVOK). Created by Tuan,
