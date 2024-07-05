@@ -285,6 +285,7 @@ main {
 
     /*flexbox*/
     display: flex;
+    justify-content: center;
 }
 
 .propaganda > button {
@@ -393,7 +394,7 @@ justify-content: flex-start;
 
     /*dimensions*/
     width: 100%;
-    height: 200px;
+    height: auto;
 
     /*flex-box*/
     display:flex;
@@ -406,7 +407,7 @@ justify-content: flex-start;
 
     /*position*/
     position: relative;
-    margin: 15px 5px;
+    margin: 15px 5px 80px;
     padding: 20px 10px;
 
     /*dimensions*/
@@ -435,6 +436,7 @@ justify-content: flex-start;
 
     /*dimensions*/
     height: 150px;
+    margin-bottom: 30px;
 }
 
 .container .card .card-front {
