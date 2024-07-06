@@ -242,7 +242,7 @@ main {
   /*dimensions*/
   width: 100%;
   max-height: 600px;
-  overflow: hidden;
+  overflow-Y: hidden;
 
   /*position*/
   padding-top: 50px;
