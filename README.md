@@ -248,6 +248,15 @@ This project has been completed using the following:
 
 - Codepen
 
+
+### Features to add in the future.
+
+<u> Light/Dark theme will be added, a media query would be added that changes the color scheme in the root. </u>
+
+<u>Course content page indicating the structure of the course</u>
+
+<u>Payment section</u>
+
 ### **Testing**
 
 Testing of this website has been done as follows:
