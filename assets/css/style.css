@@ -634,7 +634,8 @@ main {
   padding: 0 30px;
 
   /*dimensions*/
-  min-width: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 @-webkit-keyframes scroll {
