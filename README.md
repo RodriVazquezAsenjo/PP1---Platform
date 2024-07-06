@@ -110,6 +110,9 @@ mentor. This site will also have contact information.
 
 At the skeleton plane the layout of the website is designed. Wireframes can be used for this:
 
+<img src="assets/readme-images/wireframes1.png" style="width:6.5in;height:3.38889in" />
+
+<img src="assets/readme-images/wireframes2.png" style="width:6.5in;height:3.38889in" />
 
 ### **5. Surface Plane**
 
