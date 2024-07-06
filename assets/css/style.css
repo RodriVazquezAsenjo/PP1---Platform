@@ -15,6 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
 
 :root {
+  /*colors*/
   --clr-main: #086586;
   --clr-supplementary: floralwhite;
   --clr-highlights: darkorange;
@@ -24,11 +25,16 @@
 
 /* General reset and font-family setup*/
 * {
+  /*position*/
   margin: 0;
   padding: 0;
+
+  /*dimensions*/
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
+  /*text*/
   font-family: "Comfortaa", sans-serif;
 }
 
@@ -81,14 +87,14 @@ header {
   border-right: none;
   border-left: none;
 
+  /*animation*/
   -webkit-transition: 0.3s ease-in-out;
-
   -o-transition: 0.3s ease-in-out;
-
   transition: 0.3s ease-in-out;
 }
 
 header:hover {
+  /*animatino*/
   border-bottom-color: var(--clr-highlights);
 }
 
@@ -98,6 +104,8 @@ header:hover {
   font-size: 1.8rem;
   -webkit-transform-origin: left;
   -ms-transform-origin: left;
+
+  /*animation*/
   transform-origin: left;
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
@@ -215,7 +223,10 @@ nav {
 }
 
 #menu li {
+  /*text*/
   font-size: 1.25rem;
+
+  /*animation*/
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -225,6 +236,7 @@ nav {
 }
 
 #menu li:hover {
+  /*animation*/
   color: var(--clr-highlights);
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -233,8 +245,11 @@ nav {
 }
 
 main {
-  background-color: var(--clr-main);
+  /*dimensions*/
   min-height: calc(100vh - 154px);
+
+  /*box*/
+  background-color: var(--clr-main);
 }
 
 /* HERO IMAGE */
@@ -307,6 +322,8 @@ main {
   border-right: none;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+
+  /*animation*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -597,7 +614,7 @@ main {
   transform: translateX(-50%);
 }
 
-/*PARTNERS SECTION inspired by Online Tutorials, youtube video:“Infinite Scrolling Animation | CSS Only Text and Image Carousel”*/
+/*PARTNERS SECTION scrolling gallery inspired by Online Tutorials, youtube video:“Infinite Scrolling Animation | CSS Only Text and Image Carousel”*/
 
 .gallery {
   /*dimensions*/
