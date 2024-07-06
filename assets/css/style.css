@@ -410,7 +410,7 @@ main {
   color: inherit;
 }
 
-/*VALUES SECTION*/
+/*VALUES SECTION inspired by Tuan Oct 2021 on codepen*/
 
 .slogan-container-left {
   /*dimensions*/
@@ -597,7 +597,7 @@ main {
   transform: translateX(-50%);
 }
 
-/*PARTNERS SECTION*/
+/*PARTNERS SECTION inspired by Online Tutorials, youtube video:“Infinite Scrolling Animation | CSS Only Text and Image Carousel”*/
 
 .gallery {
   /*dimensions*/
