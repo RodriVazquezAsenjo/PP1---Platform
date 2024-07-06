@@ -140,7 +140,7 @@ Font used: Comfortaa from google fonts (https://fonts.google.com/share?selection
 
 Feature \#1: Navigation Bar
 
-The navigation bar will be present in every page. It will show the logo
+The navigation bar will be present in every page and will allow the user to jump from page to page in the website. It will show the logo
 at the top left and the navigation options on the top right. All of
 these features will be animated when hovered over in a similar fashion,
 scaling up and changing color to the highlights color. Additionally, the current site will be indicated by an underline on the respective link.
@@ -152,7 +152,7 @@ navigation bar links will be collapsed into a burger menu.
 
 Feature \#2: Hero Image
 
-The landing Image is displayed across the entire width.
+The landing Image is displayed across the entire width and conveys a sense of identity to the user.
 
 <img src="assets/readme-images/heroimage.png" style="width:6.5in;height:2.18056in" />
 
@@ -163,12 +163,14 @@ enveloping the headers into a off-white rounded boxes. Buttons will have
 rounded edges, and be animated on hovering and on selecting. This will
 be done by scaling up and changing the color distribution.
 
+The buttons will allow the user to download the course content and to be redirected to the sign up form page. 
+
 <img src="assets/readme-images/propaganda.png" style="width:6.5in;height:0.70833in" />
 
 Feature \#4: Values section.
 
 On the values section, there will be a number of cards which pull down
-on hovering and reveal the description for each of the values.
+on hovering and reveal the description for each of the values of the company.
 
 <img src="assets/readme-images/values.png" style="width:6.5in;height:1.31944in" />
 
@@ -181,7 +183,7 @@ with.<img src="assets/readme-images/partners.png" style="width:6.5in;height:1.40
 
 Feature \#6: Footer section.
 The footer section shows the address of the company, the social media
-links and a further navigation link option. Each of the elements will be
+links and further navigation link options. Each of the elements will be
 scaled and change color when hovered over.
 
 <img src="assets/readme-images/footer.png" style="width:6.5in;height:0.93056in" />
