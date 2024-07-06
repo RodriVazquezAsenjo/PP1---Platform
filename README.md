@@ -8,7 +8,7 @@ Platform is a website produced as a deliverable for the Code Institute Full Stac
 The company offers a mentoring course with a number of different mentors
 to adjust to the mentees requirements. Users will come to this website
 and view a modern and clean aesthetic which aims to represent an
-avant-garde philosophy by the mentoring company.
+avant-garde philosophy by the mentoring company. The desired user will be an early-career professional, who speaks english. The user will be able to access downloadable content, check the address of the company and view values and partners with who the mentoring services company works with.
 
 ## Table of Contents.
 
@@ -25,10 +25,12 @@ avant-garde philosophy by the mentoring company.
 
 ## User Experience
 
+To describe the User Experience design process of the website, the 5 planes of UX design will be discussed below. 
+
 ### **1. Strategy Plane**
 
-At this level in the strategy plane, the objectives and the users
-serving those goals are identified.
+At this level thep project objectives and aspirations, and the users
+serving those objectives are identified.
 
 - **Product Objective**: To create a platform where potential users will be attracted to sign up to the mentorship program.
 
@@ -82,14 +84,14 @@ are defined, where will the user land, what will be his options from
 where he lands and further on.
 
 As the user accesses the website, he’ll be landing on the home page,
-where he will be greeted by a hero video clearly portraying a sense of
+where he will be greeted by a hero image clearly portraying a sense of
 professional development. Here, he’ll notice the navigation bar at the
 top, present in all pages, which will be able to take him to a mentor
-page and a signup page, and just below the video he’ll find two buttons
-supported by a slogan which will give him the option to download the
+page and a signup page, and just below the image he’ll find two buttons
+supported by a slogan which will give them the option to download the
 course program and to sign up.
 
-If the user decides to scroll down the website, he’ll view the values
+If the user decides to scroll down the website, they will view the values
 the company stands by and the companies that \[platform\] is involved
 with. At the bottom of the website, there will be a footer with
 important information replicating in every page. This footer will
@@ -97,7 +99,7 @@ include the address where the company can be found, any social media
 links and further navigation tools.
 
 If the user decides to instead click on either of the links at the top
-of the website, he’ll be redirected to the mentors or sign up form.
+of the website, they will be redirected to the mentors or sign up form.
 
 The mentors webpage will have display in a minimalistic view the
 different mentors available together with a short description and their
@@ -124,40 +126,40 @@ Font used: Comfortaa.
 
 Color scheme used:
 
-- Main Color:
+- Main Color: #086586
 
-- Supplementary Color:
+- Supplementary Color: floralwhite
 
-- Secondary Color:
+- Secondary Color: #0e789f
 
-- Highlights Color:
+- Highlights Color: darkorange
 
-- Shadows Color:
+- Shadows Color: #031f29
+
+Font used: Comfortaa from google fonts (https://fonts.google.com/share?selection.family=Comfortaa:wght@300..700)
 
 Feature \#1: Navigation Bar
 
 The navigation bar will be present in every page. It will show the logo
 at the top left and the navigation options on the top right. All of
 these features will be animated when hovered over in a similar fashion,
-scaling up and changing color to the highlights color. Additionally, the
-selected website will be enlarged and have an underline.
+scaling up and changing color to the highlights color. Additionally, the current site will be indicated by an underline on the respective link.
 
 It is worth noting that in resolutions smaller than 768px, the
 navigation bar links will be collapsed into a burger menu.
 
 <img src="assets/readme-images/header.png" style="width:6.5in;height:0.38889in" />
 
-Feature \#2: Hero Video
+Feature \#2: Hero Image
 
-The landing video is displayed across the entire width, on autoplay,
-looped and muted.
+The landing Image is displayed across the entire width.
 
 <img src="assets/readme-images/herovideo.png" style="width:6.5in;height:2.18056in" />
 
 Feature \#3: Propaganda section buttons and slogan.
 
 The website maintains a consistent presentation across the pages,
-enveloping the headers into a off-white rounded boxes. Boxes will have
+enveloping the headers into a off-white rounded boxes. Buttons will have
 rounded edges, and be animated on hovering and on selecting. This will
 be done by scaling up and changing the color distribution.
 
@@ -166,7 +168,7 @@ be done by scaling up and changing the color distribution.
 Feature \#4: Values section.
 
 On the values section, there will be a number of cards which pull down
-on hovering which reveal the description for each of the values.
+on hovering and reveal the description for each of the values.
 
 <img src="assets/readme-images/values.png" style="width:6.5in;height:1.31944in" />
 
@@ -199,7 +201,7 @@ Feature \#8: Signup section.
 
 On the last page, the user will find the sign up form where the form
 will require First Name, Surname, Email address, Password and an
-application box where applicants can send out a brief on why they want
+application box where applicants can send out a brief cover letter on why they want
 to join the mentorship program. Each of the items is animated
 differently on hovering and on selecting. The submit button is also
 animated.
@@ -208,16 +210,13 @@ animated.
 
 Feature \#9: Embedded map section.
 
-The contact information is found adjacently to an interactive map of the
+The contact information is found just below an interactive map of the
 address of the institute. The user will be able to access the map when
-clicked in, and will found the address and phone number and email
+clicked in, and will find the address and phone number and email
 address.
 
 <img src="assets/readme-images/embeddedmap.png" style="width:6.5in;height:3.38889in" />
 
-The logo will be found
-
-*(Color Schemes, principles of design, typography,*
 
 ### **Technologies Used**
 
@@ -229,7 +228,7 @@ This project has been completed using the following:
 
 - CSS
 
-<u>Resource Libraries:</u>
+<u>Resources:</u>
 
 - GitHub
 
@@ -247,17 +246,19 @@ This project has been completed using the following:
 
 - Prefixer
 
+- Codepen
+
 ### **Testing**
 
 Testing of this website has been done as follows:
 
 1.  <u>Validators:</u>
 
-- Google Lighthouse: Measures the performance, accessibility, best practices and SEO. Each of the sites were tested both in mobile and desktop. Accessibility, best practices and SEO were over 95 on every device. Performance was slightly lower on mobile devices due to large LCPs. Preloading and priority was added to the media which took a long time to load. These images were also compressed and changed to webp format to reduce their size. While not ideal, the performance insight tab of google chrome highlighted that images were being rendered 0.25s after opening the website, therefore the large LCP is deemed as a residual risk. More appropriate imagery would be investigated at the next stage of design to ensure the performance metric sits above 90.
+- Google Lighthouse: Measures the performance, accessibility, best practices and SEO. Each of the sites were tested both in mobile and desktop. Accessibility, best practices and SEO were over 95 on every device. Performance was slightly lower on mobile devices due to large LCPs. Preloading and priority was added to the media which took a long time to load. These images were also compressed and changed to .webp format to reduce their size. While not ideal, the performance insight tab of google chrome highlighted that images were being rendered 0.25s after opening the website, therefore the large LCP is deemed as a residual risk. More appropriate imagery would be investigated at the next stage of design to ensure the performance metric sits above 90.
 
-- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code. After running for index.html, mentor.html and contact.html no errors were found. A warning was highlighted where a section didn't have a header, however a div is used instead. 
+- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code. After running for index.html, mentor.html and contact.html no errors were found. A warning was highlighted where a section didn't have a header, however a div is used instead as recommended. 
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.After running for style.css no errors were found. 
+- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code. After running for style.css no errors were found. 
 
 2.  <u>Browser compatibility:</u>
 
@@ -470,17 +471,19 @@ unselected.</th>
 
 4.  <u>Responsiveness</u>
 
+The site adheres as intended on every device. 
+
 <img src="assets/readme-images/responsiveness.png" style="width:6.5in;height:4.26389in" />
 
 5. <u>Fixed bugs</u>
 
 #### Logo Flickering in Safari
-While I didn't capture the image, the logo on the top left of the website glitched on safari. The glitch involved happened when hovering over the logo, as the logo would flicker. It originally was meant to change colors to orange and to increase in size. In order to fix this, I added prefixes through the website: (https://autoprefixer.github.io/). Additionally, I changed the dimension format from % to rem on every font size and used transform: scale() for the increase in size. This solved the issue.
+While the image wasn't captured, the logo on the top left of the website glitched on safari. The glitch involved happened when hovering over the logo, as the logo would flicker. It originally was meant to change colors to darkorange and to increase in size. In order to fix this, prefixes were added through prefixer: (https://autoprefixer.github.io/). Additionally, I changed the dimension format from % to rem on every font size and used transform: scale() for the increase in size. This solved the issue.
 
 6. <u>Unfixed bugs</u>
 
 #### Menu bar text too large on Firefox
-When testing the website on Firefox, the navigation menu when collapsed into the burger menu has the text larger than any other browser. White it doesn't impede legibility, further padding would be appropriate to have a less cluttered navigation bar. Unfortunately, this bug can't be fixed in time for the submission of the projet. However, the strategy to solve it would be to understand the inheritance of paddings and widths in case Firefox reads them differently to Chrome and should this not be the case either a media query or smaller font-size would be specified. 
+When testing the website on Firefox, the navigation menu when collapsed into the burger menu has the text larger than any other browser. While it doesn't impede legibility, further padding would be appropriate to have a less cluttered navigation bar. Unfortunately, this bug can't be fixed in time for the submission of the projet. However, the strategy to solve it would be to understand the inheritance of paddings and widths in case Firefox reads them differently to Chrome and should this not be the case either a media query or smaller font-size would be specified. 
 
 
 ## **Deployment**
@@ -505,9 +508,6 @@ a new section on the pages section shows up which states that the site
 is live.
 
 **Git Clone**
-
-*Cloning will be linked to your repo and any pushes they make will come
-to you for approval.*
 
 Git cloning is essentially creating a copy of an existing code from a
 remote repository to your local repository. It is a key tool that allows
@@ -557,8 +557,6 @@ the developer.
 
 Images have been obtained from pexels.
 
-Video have been obtained from Canva.
-
 ### Code:
 
 Pull down animations have been based on example code from Codepen, link
@@ -579,5 +577,3 @@ instrumental to the development of this website.
 ## **Contact Information**
 
 - **Lead Designer:** Rodrigo Vázquez Asenjo
-
-Thank you for contributing to \[platform\]!
