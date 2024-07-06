@@ -1162,10 +1162,6 @@ footer:hover {
   transition: 0.3s ease-in-out;
 }
 
-#coverletter::placeholder {
-  color: var(--clr-supplementary)
-}
-
 .signup-form #coverletter:hover {
   /*animation*/
   border: var(--clr-highlights) 2px solid;
