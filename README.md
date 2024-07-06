@@ -110,6 +110,9 @@ mentor. This site will also have contact information.
 
 At the skeleton plane the layout of the website is designed. Wireframes can be used for this:
 
+<img src="assets/readme-images/wireframes1.png" style="width:6.5in;height:3.38889in" />
+
+<img src="assets/readme-images/wireframes2.png" style="width:6.5in;height:3.38889in" />
 
 ### **5. Surface Plane**
 
@@ -250,17 +253,17 @@ Testing of this website has been done as follows:
 
 1.  <u>Validators:</u>
 
-- Google Lighthouse: Measures the performance, accessibility, best practices and SEO.
+- Google Lighthouse: Measures the performance, accessibility, best practices and SEO. Each of the sites were tested both in mobile and desktop. Accessibility, best practices and SEO were over 95 on every device. Performance was slightly lower on mobile devices due to large LCPs. Preloading and priority was added to the media which took a long time to load. These images were also compressed and changed to webp format to reduce their size. While not ideal, the performance insight tab of google chrome highlighted that images were being rendered 0.25s after opening the website, therefore the large LCP is deemed as a residual risk. More appropriate imagery would be investigated at the next stage of design to ensure the performance metric sits above 90.
 
-- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code.
+- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code. After running for index.html, mentor.html and contact.html no errors were found. A warning was highlighted where a section didn't have a header, however a div is used instead. 
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.After running for style.css no errors were found. 
 
 2.  <u>Browser compatibility:</u>
 
 - Chrome: Pass
 
-- Safari / Edge: Hero video doesn't autoplay
+- Safari / Edge: Pass
 
 - Firefox: Pass
 
@@ -314,11 +317,10 @@ position</th>
 </tr>
 <tr class="header">
 <th>T04</th>
-<th>Hero Video</th>
-<th>Opening up the website</th>
-<th>The video should autoplay, muted and looped infinitely</th>
-<th>Fail - Safari devices don’t autoplay the video. A play button is
-shown instead.</th>
+<th>Hero Image</th>
+<th>Adjust the width of the screen</th>
+<th>The image should not overflow and autoadjust to the screen width. /th>
+<th>Pass</th>
 </tr>
 <tr class="odd">
 <th>T05</th>
