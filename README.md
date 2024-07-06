@@ -255,15 +255,15 @@ Testing of this website has been done as follows:
 
 - Google Lighthouse: Measures the performance, accessibility, best practices and SEO.
 
-- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code.
+- [HTML Validator](https://validator.w3.org/): Checks for any errors in the HTML code. After running for index.html, mentor.html and contact.html no errors were found. A warning was highlighted where a section didn't have a header, however a div is used instead. 
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/): Checks for any errors in the CSS code.After running for style.css no errors were found. 
 
 2.  <u>Browser compatibility:</u>
 
 - Chrome: Pass
 
-- Safari / Edge: Hero video doesn't autoplay
+- Safari / Edge: Pass
 
 - Firefox: Pass
 
@@ -317,11 +317,10 @@ position</th>
 </tr>
 <tr class="header">
 <th>T04</th>
-<th>Hero Video</th>
-<th>Opening up the website</th>
-<th>The video should autoplay, muted and looped infinitely</th>
-<th>Fail - Safari devices don’t autoplay the video. A play button is
-shown instead.</th>
+<th>Hero Image</th>
+<th>Adjust the width of the screen</th>
+<th>The image should not overflow and autoadjust to the screen width. /th>
+<th>Pass</th>
 </tr>
 <tr class="odd">
 <th>T05</th>
