@@ -242,6 +242,8 @@ This project has been completed using the following:
 
 - iOS Notes
 
+- Prefixer
+
 ### **Testing**
 
 Testing of this website has been done as follows:
@@ -467,6 +469,17 @@ unselected.</th>
 4.  <u>Responsiveness</u>
 
 <img src="assets/readme-images/responsiveness.png" style="width:6.5in;height:4.26389in" />
+
+5. <u>Fixed bugs</u>
+
+#### Logo Flickering in Safari
+While I didn't capture the image, the logo on the top left of the website glitched on safari. The glitch involved happened when hovering over the logo, as the logo would flicker. It originally was meant to change colors to orange and to increase in size. In order to fix this, I added prefixes through the website: (https://autoprefixer.github.io/). Additionally, I changed the dimension format from % to rem on every font size and used transform: scale() for the increase in size. This solved the issue.
+
+6. <u>Unfixed bugs</u>
+
+#### Menu bar text too large on Firefox
+When testing the website on Firefox, the navigation menu when collapsed into the burger menu has the text larger than any other browser. White it doesn't impede legibility, further padding would be appropriate to have a less cluttered navigation bar. Unfortunately, this bug can't be fixed in time for the submission of the projet. However, the strategy to solve it would be to understand the inheritance of paddings and widths in case Firefox reads them differently to Chrome and should this not be the case either a media query or smaller font-size would be specified. 
+
 
 ## **Deployment**
 
