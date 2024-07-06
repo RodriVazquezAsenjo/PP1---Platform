@@ -154,7 +154,7 @@ Feature \#2: Hero Image
 
 The landing Image is displayed across the entire width.
 
-<img src="assets/readme-images/herovideo.png" style="width:6.5in;height:2.18056in" />
+<img src="assets/readme-images/heroimage.png" style="width:6.5in;height:2.18056in" />
 
 Feature \#3: Propaganda section buttons and slogan.
 
