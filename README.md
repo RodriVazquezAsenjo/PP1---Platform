@@ -494,6 +494,9 @@ While the image wasn't captured, the logo on the top left of the website glitche
 #### Menu bar text too large on Firefox
 When testing the website on Firefox, the navigation menu when collapsed into the burger menu has the text larger than any other browser. While it doesn't impede legibility, further padding would be appropriate to have a less cluttered navigation bar. Unfortunately, this bug can't be fixed in time for the submission of the projet. However, the strategy to solve it would be to understand the inheritance of paddings and widths in case Firefox reads them differently to Chrome and should this not be the case either a media query or smaller font-size would be specified. 
 
+#### Placeholder in textarea
+While the code has been removed for the placeholder, the deployed website is still showing the placeholder. This is happening at the time of writing before submission. New updates to the deployment might remove this placeholder
+
 
 ## **Deployment**
 
