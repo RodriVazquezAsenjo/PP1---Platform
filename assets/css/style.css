@@ -238,14 +238,17 @@ main {
 }
 
 /* HERO IMAGE */
-.hero-image {
+#hero-image {
   /*dimensions*/
   width: 100%;
-  max-height: 600px;
+  height: 600px;
   overflow-Y: hidden;
 
   /*position*/
   padding-top: 50px;
+
+  /*box*/
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
 
   /*flex-box*/
   display: -webkit-box;
